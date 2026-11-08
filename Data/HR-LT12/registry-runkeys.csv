@@ -1,0 +1,17 @@
+Hive,KeyPath,ValueName,ValueData,ValueType,LastWriteTime,Notes
+SOFTWARE,Microsoft\Windows\CurrentVersion\Run,SecurityHealth,%windir%\system32\SecurityHealthSystray.exe,RegExpandSz,2024-09-03 08:41:22.0000000,Built-in Defender tray
+SOFTWARE,Microsoft\Windows\CurrentVersion\Run,RTKAUDUService,C:\Program Files\Realtek\Audio\HDA\RtkAudUService64.exe -s,RegSz,2024-09-03 08:41:22.0000000,Realtek audio
+SOFTWARE,Microsoft\Windows\CurrentVersion\Run,HotKeysCmds,C:\Windows\System32\hkcmd.exe,RegSz,2024-09-03 08:41:22.0000000,Intel hotkey utility (factory image)
+SOFTWARE,Microsoft\Windows\CurrentVersion\Run,IgfxTray,C:\Windows\System32\igfxtray.exe,RegSz,2024-09-03 08:41:22.0000000,Intel graphics tray (factory image)
+SOFTWARE,Microsoft\Windows\CurrentVersion\Run,OneDrive,"""C:\Program Files\Microsoft OneDrive\OneDrive.exe"" /background",RegSz,2024-09-03 08:41:22.0000000,Per-machine OneDrive autostart
+SOFTWARE,Microsoft\Windows\CurrentVersion\Run,MicrosoftTeams,"""C:\Program Files\Microsoft\Teams\current\Teams.exe"" --processStart Teams.exe",RegSz,2024-09-03 08:41:22.0000000,Teams autostart
+SOFTWARE,Microsoft\Windows\CurrentVersion\RunOnce,DELETE_NULL_KEY,,RegSz,2024-08-04 11:02:18.0000000,Empty default
+SOFTWARE,Microsoft\Windows\CurrentVersion\Policies\Explorer\Run,,,,,No values present
+SOFTWARE,WOW6432Node\Microsoft\Windows\CurrentVersion\Run,,,,,No 32-bit Run entries
+NTUSER.DAT,Software\Microsoft\Windows\CurrentVersion\Run,OneDrive,"""C:\Users\hr-user\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /background",RegSz,2024-11-08 19:06:42.0000000,Per-user OneDrive autostart (corporate account first run)
+NTUSER.DAT,Software\Microsoft\Windows\CurrentVersion\Run,com.squirrel.Teams.Teams,"""C:\Users\hr-user\AppData\Local\Microsoft\Teams\Update.exe"" --processStart ""Teams.exe""",RegSz,2024-11-08 19:06:42.0000000,Teams Squirrel updater
+NTUSER.DAT,Software\Microsoft\Windows\CurrentVersion\Run,HpHotkeyMonitor,C:\Users\hr-user\AppData\Local\hp-hotkey\hpkey.exe,RegSz,2024-11-08 19:06:42.0000000,Suspicious — name imitates HP utility but path is in user-writable AppData
+NTUSER.DAT,Software\Microsoft\Windows\CurrentVersion\RunOnce,,,,,No values present
+NTUSER.DAT,Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders,Startup,C:\Users\hr-user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup,RegSz,2024-09-03 08:42:14.0000000,Default startup folder path
+SOFTWARE,Microsoft\Windows NT\CurrentVersion\Winlogon,Userinit,"C:\Windows\system32\userinit.exe,",RegSz,2024-08-04 11:02:18.0000000,Default Userinit
+SOFTWARE,Microsoft\Windows NT\CurrentVersion\Winlogon,Shell,explorer.exe,RegSz,2024-08-04 11:02:18.0000000,Default Shell

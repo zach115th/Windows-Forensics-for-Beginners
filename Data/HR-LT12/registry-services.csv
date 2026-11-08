@@ -1,0 +1,24 @@
+ServiceName,DisplayName,ImagePath,StartType,Type,LastWriteTime,Description
+W32Time,Windows Time,C:\Windows\system32\svchost.exe -k LocalService -p,Manual,Win32_OwnProcess,2024-08-04 11:02:18.0000000,Maintains date and time synchronization
+WinDefend,Microsoft Defender Antivirus Service,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2410.0-0\MsMpEng.exe""",Automatic,Win32_OwnProcess,2024-11-11 02:47:39.0000000,Helps protect users from malware
+ClickToRunSvc,Microsoft Office Click-to-Run Service,"""C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe""",Automatic,Win32_OwnProcess,2024-09-03 08:41:22.0000000,Office Click-to-Run
+Spooler,Print Spooler,C:\Windows\System32\spoolsv.exe,Automatic,Win32_OwnProcess,2024-08-04 11:02:18.0000000,Manages print jobs
+WSearch,Windows Search,"""C:\Windows\system32\SearchIndexer.exe"" /Embedding",Automatic_Delayed,Win32_OwnProcess,2024-08-04 11:02:18.0000000,Provides content indexing
+BITS,Background Intelligent Transfer Service,C:\Windows\System32\svchost.exe -k netsvcs -p,Manual,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Transfers files in the background
+wuauserv,Windows Update,C:\Windows\system32\svchost.exe -k netsvcs -p,Manual,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Enables detection download install of updates
+LanmanServer,Server,C:\Windows\System32\svchost.exe -k netsvcs -p,Automatic,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Supports file print and named-pipe sharing
+LanmanWorkstation,Workstation,C:\Windows\System32\svchost.exe -k NetworkService -p,Automatic,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Creates and maintains client network connections
+Dnscache,DNS Client,C:\Windows\System32\svchost.exe -k NetworkService -p,Automatic,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Caches DNS names and registers
+EventLog,Windows Event Log,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,Automatic,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Manages events and event logs
+RpcSs,Remote Procedure Call,C:\Windows\system32\svchost.exe -k rpcss -p,Automatic,Win32_ShareProcess,2024-08-04 11:02:18.0000000,RPC subsystem
+TermService,Remote Desktop Services,C:\Windows\System32\svchost.exe -k NetworkService,Manual,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Allows users to connect interactively
+UserManager,User Manager,C:\Windows\System32\svchost.exe -k netsvcs -p,Automatic,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Provides applications with access to user state
+mpsdrv,Windows Firewall Authorization Driver,C:\Windows\System32\drivers\mpsdrv.sys,Manual,Kernel,2024-08-04 11:02:18.0000000,Windows Firewall driver
+edgeupdate,Microsoft Edge Update Service,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",Automatic_Delayed,Win32_OwnProcess,2024-09-03 08:41:22.0000000,Keeps Edge up to date
+edgeupdatem,Microsoft Edge Update Service (m),"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /medsvc",Manual,Win32_OwnProcess,2024-09-03 08:41:22.0000000,Edge update worker service
+SgrmBroker,System Guard Runtime Monitor Broker,"""C:\Windows\system32\SgrmBroker.exe""",Automatic,Win32_OwnProcess,2024-08-04 11:02:18.0000000,System integrity monitoring
+SecurityHealthService,Windows Security Service,C:\Windows\system32\SecurityHealthService.exe,Manual,Win32_OwnProcess,2024-08-04 11:02:18.0000000,Handles all unified security service notifications
+USBSTOR,USB Mass Storage Driver,C:\Windows\System32\drivers\USBSTOR.SYS,Manual,KernelDriver,2024-08-04 11:02:18.0000000,USB mass storage class driver
+HpQcvWmi,HP Comm Recovery Service,"""C:\Program Files\HP\Comm Recovery\HpQcvWmi.exe""",Manual,Win32_OwnProcess,2024-08-04 11:02:18.0000000,HP factory imaging recovery helper
+WlanSvc,WLAN AutoConfig,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p,Manual,Win32_ShareProcess,2024-08-04 11:02:18.0000000,Manages wireless connections
+DiagTrack,Connected User Experiences and Telemetry,C:\Windows\System32\svchost.exe -k utcsvc -p,Automatic,Win32_OwnProcess,2024-08-04 11:02:18.0000000,Diagnostic and telemetry agent

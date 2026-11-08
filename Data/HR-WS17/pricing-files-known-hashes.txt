@@ -1,0 +1,15 @@
+Pricing files — known SHA-256 hashes
+Provided by Legal as the reference target for the HR-WS17 investigation.
+Acquisition date: 2024-11-12 (host preserved at offboarding; case opened later — see note below)
+
+File Name                                | SHA-256
+Q4_Customer_Pricing.xlsx                 | 7a4b8c12d3e5f6789012345678901234567890abcdef1234567890abcdef1234
+Pricing_Strategy_Confidential.docx       | 9b9cdc69c1c24e2b3142a4b5d6e7f8901234567890abcdef1234567890abcdef
+Margins_Q3.xlsx                          | 12dc1ea8e34b6a0b8b2c1a4f8b3d4e5f67890abcdef1234567890abcdef12345
+
+Notes:
+- Hashes generated against the canonical copies held by Legal at the time the case was opened (2024-12-03).
+- Compare any candidate file recovered from the host, the USB device, the personal OneDrive blob,
+  or any other source against these values. A match is strong evidence; a non-match is informative
+  (the file may have been re-saved, edited, archived, or compressed).
+- For files inside an archive (zip/7z), hash the file after extraction, not the archive itself.

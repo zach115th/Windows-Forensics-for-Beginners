@@ -1,0 +1,36 @@
+; Extract from %LOCALAPPDATA%\Microsoft\OneDrive\logs\Personal\SyncDiagnostics-2024-11-12.log
+; Account: hr.user.personal@outlook.com (Personal)
+; UserCid: a8b9c1d2e3f4a5b6
+; Client version: 24.196.0929.0001
+; All timestamps UTC.
+
+2024-11-12T17:46:02.184Z [INF] [SyncEngine] Account 'hr.user.personal@outlook.com' (Personal) sign-in succeeded. CID=a8b9c1d2e3f4a5b6
+2024-11-12T17:46:02.214Z [INF] [SyncEngine] Initializing sync root: C:\Users\hr-user\OneDrive
+2024-11-12T17:46:02.821Z [INF] [SyncEngine] Sync root initialized. ScopeCount=1 ItemCount=0
+2024-11-12T17:46:03.142Z [INF] [Telemetry] Personal-account first activation on this device.
+2024-11-12T17:46:14.421Z [INF] [FileWatcher] LocalChange detected: C:\Users\hr-user\OneDrive\Pricing-Backup created
+2024-11-12T17:46:14.448Z [INF] [SyncEngine] Folder enqueued for upload: /personal/hr_user_personal_outlook_com/Documents/Pricing-Backup
+2024-11-12T17:46:18.218Z [INF] [Uploader] Folder created on server. ItemId=01ABCDEF234567890ABCDEF0
+2024-11-12T17:46:42.184Z [INF] [FileWatcher] LocalChange detected: C:\Users\hr-user\OneDrive\Pricing-Backup\Q4_Customer_Pricing.xlsx created (size=1842184)
+2024-11-12T17:46:42.221Z [INF] [SyncEngine] File enqueued for upload: Q4_Customer_Pricing.xlsx
+2024-11-12T17:46:42.318Z [INF] [Uploader] Beginning upload Q4_Customer_Pricing.xlsx (size=1842184)
+2024-11-12T17:46:48.214Z [INF] [Uploader] Chunk 1/3 transferred (655360/1842184 bytes)
+2024-11-12T17:46:58.842Z [INF] [Uploader] Chunk 2/3 transferred (1310720/1842184 bytes)
+2024-11-12T17:47:12.184Z [INF] [Uploader] Chunk 3/3 transferred (1842184/1842184 bytes)
+2024-11-12T17:47:18.418Z [INF] [Uploader] Upload complete Q4_Customer_Pricing.xlsx ItemId=01ABCDEF234567890ABCDEF1 SHA256=7a4b8c12d3e5f6789012345678901234567890abcdef1234567890abcdef1234
+2024-11-12T17:47:18.512Z [INF] [SyncEngine] Item state UploadComplete recorded in SyncEngineDatabase.db
+2024-11-12T17:48:41.214Z [INF] [FileWatcher] LocalChange detected: C:\Users\hr-user\OneDrive\Pricing-Backup\Pricing_Strategy_Confidential.docx created (size=1248421)
+2024-11-12T17:48:41.244Z [INF] [SyncEngine] File enqueued for upload: Pricing_Strategy_Confidential.docx
+2024-11-12T17:48:41.421Z [INF] [Uploader] Beginning upload Pricing_Strategy_Confidential.docx (size=1248421)
+2024-11-12T17:48:48.218Z [INF] [Uploader] Chunk 1/2 transferred (655360/1248421 bytes)
+2024-11-12T17:49:12.421Z [INF] [Uploader] Chunk 2/2 transferred (1248421/1248421 bytes)
+2024-11-12T17:49:18.214Z [INF] [Uploader] Upload complete Pricing_Strategy_Confidential.docx ItemId=01ABCDEF234567890ABCDEF2 SHA256=9b9cdc69c1c24e2b3142a4b5d6e7f8901234567890abcdef1234567890abcdef
+2024-11-12T17:49:18.318Z [INF] [SyncEngine] Item state UploadComplete recorded in SyncEngineDatabase.db
+2024-11-12T17:49:42.184Z [INF] [SyncEngine] No pending items. Sync queue idle.
+2024-11-12T17:50:00.142Z [INF] [Telemetry] Sync session summary: ItemsUploaded=2 BytesUploaded=3090605 Errors=0 Duration=00:03:58
+2024-11-12T17:55:18.418Z [WRN] [FileWatcher] LocalChange detected outside sync root: C:\Users\hr-user\AppData\Local\Temp\Q4_Customer_Pricing.xlsx deleted (ignored)
+2024-11-12T17:55:18.421Z [WRN] [FileWatcher] LocalChange detected outside sync root: C:\Users\hr-user\AppData\Local\Temp\Pricing_Strategy_Confidential.docx deleted (ignored)
+2024-11-12T17:58:42.184Z [INF] [Heartbeat] Sync engine idle. AccountState=Healthy QueueDepth=0
+2024-11-12T18:01:18.214Z [INF] [SyncEngine] Account 'hr.user.personal@outlook.com' sign-out requested by user
+2024-11-12T18:01:18.421Z [INF] [SyncEngine] Account 'hr.user.personal@outlook.com' signed out. SyncRootDetached=False CacheRetained=True
+2024-11-12T18:02:08.184Z [INF] [SyncEngine] Process exit. Reason=UserLogoff

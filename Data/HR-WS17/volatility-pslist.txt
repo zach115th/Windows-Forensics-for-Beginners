@@ -1,0 +1,44 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime        File output
+
+4       0       System  0xb28c4e07d040  172     -       N/A     False   2024-11-12 02:14:00.000000      N/A     Disabled
+88      4       Registry        0xb28c4e0a3080  4       -       N/A     False   2024-11-12 02:14:00.000000      N/A     Disabled
+356     4       smss.exe        0xb28c4f6c0040  2       -       N/A     False   2024-11-12 02:14:02.000000      N/A     Disabled
+472     464     csrss.exe       0xb28c50f47140  11      -       0       False   2024-11-12 02:14:06.000000      N/A     Disabled
+556     548     wininit.exe     0xb28c50f96080  1       -       0       False   2024-11-12 02:14:07.000000      N/A     Disabled
+564     548     csrss.exe       0xb28c50fa6080  13      -       1       False   2024-11-12 02:14:07.000000      N/A     Disabled
+648     548     winlogon.exe    0xb28c51214080  4       -       1       False   2024-11-12 02:14:14.000000      N/A     Disabled
+704     556     services.exe    0xb28c511ad080  7       -       0       False   2024-11-12 02:14:08.000000      N/A     Disabled
+724     556     lsass.exe       0xb28c511c8080  10      -       0       False   2024-11-12 02:14:08.000000      N/A     Disabled
+836     704     svchost.exe     0xb28c5142a080  22      -       0       False   2024-11-12 02:14:09.000000      N/A     Disabled
+908     704     svchost.exe     0xb28c51488080  14      -       0       False   2024-11-12 02:14:09.000000      N/A     Disabled
+984     704     svchost.exe     0xb28c514e2080  18      -       0       False   2024-11-12 02:14:09.000000      N/A     Disabled
+1042    704     svchost.exe     0xb28c5155c080  9       -       0       False   2024-11-12 02:14:10.000000      N/A     Disabled
+1188    704     svchost.exe     0xb28c5161a080  12      -       0       False   2024-11-12 02:14:11.000000      N/A     Disabled
+1284    648     fontdrvhost.exe 0xb28c516c4080  5       -       1       False   2024-11-12 02:14:14.000000      N/A     Disabled
+1348    648     dwm.exe 0xb28c51742080  14      -       1       False   2024-11-12 02:14:15.000000      N/A     Disabled
+1584    704     spoolsv.exe     0xb28c518a1080  8       -       0       False   2024-11-12 02:14:18.000000      N/A     Disabled
+1712    704     MsMpEng.exe     0xb28c5194c080  28      -       0       False   2024-11-12 02:14:20.000000      N/A     Disabled
+1884    704     SearchIndexer.exe       0xb28c51a2e080  16      -       0       False   2024-11-12 02:14:24.000000      N/A     Disabled
+2104    704     SecurityHealthService.exe       0xb28c51b18080  6       -       0       False   2024-11-12 02:14:28.000000      N/A     Disabled
+2288    984     sihost.exe      0xb28c51c04080  9       -       1       False   2024-11-12 08:42:11.000000      N/A     Disabled
+2344    984     taskhostw.exe   0xb28c51c9a080  8       -       1       False   2024-11-12 08:42:11.000000      N/A     Disabled
+2412    2384    userinit.exe    0xb28c51d12080  0       -       1       False   2024-11-12 08:42:42.000000      2024-11-12 08:43:04.000000      Disabled
+2468    2412    explorer.exe    0xb28c51db8080  74      -       1       False   2024-11-12 08:42:42.000000      N/A     Disabled
+2596    984     RuntimeBroker.exe       0xb28c51e64080  12      -       1       False   2024-11-12 08:42:48.000000      N/A     Disabled
+2704    2468    ctfmon.exe      0xb28c51f02080  11      -       1       False   2024-11-12 08:42:52.000000      N/A     Disabled
+3024    2468    OUTLOOK.EXE     0xb28c52148080  42      -       1       False   2024-11-12 08:48:14.000000      N/A     Disabled
+3184    2468    OneDrive.exe    0xb28c5221c080  24      -       1       False   2024-11-12 08:42:54.000000      N/A     Disabled
+4218    2468    EXCEL.EXE       0xb28c52488080  31      -       1       False   2024-11-12 17:38:42.000000      N/A     Disabled
+4258    2468    WINWORD.EXE     0xb28c5250a080  27      -       1       False   2024-11-12 17:39:18.000000      N/A     Disabled
+5842    984     dllhost.exe     0xb28c52618080  7       -       1       False   2024-11-12 17:42:14.000000      N/A     Disabled
+6428    2468    OneDrive.exe    0xb28c526f4080  26      -       1       False   2024-11-12 17:46:02.000000      N/A     Disabled
+6604    2468    msedge.exe      0xb28c527a8080  44      -       1       False   2024-11-12 17:51:04.000000      N/A     Disabled
+6648    6604    msedge.exe      0xb28c5282c080  12      -       1       False   2024-11-12 17:51:04.000000      N/A     Disabled
+6702    6604    msedge.exe      0xb28c528b0080  18      -       1       False   2024-11-12 17:51:05.000000      N/A     Disabled
+6744    6604    msedge.exe      0xb28c52934080  15      -       1       False   2024-11-12 17:51:06.000000      N/A     Disabled
+7108    984     WmiPrvSE.exe    0xb28c52a18080  9       -       0       False   2024-11-12 17:57:44.000000      N/A     Disabled
+7284    2468    winpmem_mini_x6 0xb28c52ac2080  3       -       1       False   2024-11-12 18:01:12.000000      N/A     Disabled
+7290    7284    conhost.exe     0xb28c52b44080  4       -       1       False   2024-11-12 18:01:12.000000      N/A     Disabled

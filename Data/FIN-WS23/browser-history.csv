@@ -1,0 +1,26 @@
+VisitTime,URL,Title,VisitCount,TypedCount,LastVisitTime,ReferrerURL,Transition
+2024-11-13 06:30:18.0000000,https://outlook.office365.com/mail/inbox,Inbox - j.smith - Outlook,184,12,2024-11-13 06:30:18.0000000,,typed
+2024-11-13 06:31:42.0000000,https://finance-news-daily.example.com/2024/11/q4-vendor-roundup,Q4 Vendor Roundup - Finance News Daily,1,0,2024-11-13 06:31:42.0000000,https://outlook.office365.com/mail/inbox,link
+2024-11-13 06:32:18.0000000,https://finance-news-daily.example.com/download?file=Q4_Vendor_Review.docm&id=8841ab,Download - Q4_Vendor_Review.docm,1,0,2024-11-13 06:32:18.0000000,https://finance-news-daily.example.com/2024/11/q4-vendor-roundup,link
+2024-11-13 06:42:11.0000000,https://outlook.office365.com/mail/inbox,Inbox - j.smith - Outlook,184,12,2024-11-13 06:42:11.0000000,,reload
+2024-11-13 06:43:55.0000000,https://intranet.finance.example.com/dashboard,Finance Dashboard,142,8,2024-11-13 06:43:55.0000000,,typed
+2024-11-13 06:55:00.0000000,https://intranet.finance.example.com/vendors/q4,Q4 Vendor List,42,2,2024-11-13 06:55:00.0000000,https://intranet.finance.example.com/dashboard,link
+2024-11-13 07:18:42.0000000,https://www.bing.com/search?q=excel+pivot+slicer+date+range,excel pivot slicer date range - Bing,1,0,2024-11-13 07:18:42.0000000,,typed
+2024-11-13 07:19:14.0000000,https://support.microsoft.com/en-us/office/insert-a-slicer-to-filter-data-249f966b-a9d5-4b0f-b31a-12651785d29d,Insert a slicer to filter data - Microsoft Support,1,0,2024-11-13 07:19:14.0000000,https://www.bing.com/search?q=excel+pivot+slicer+date+range,link
+2024-11-13 07:42:08.0000000,https://teams.microsoft.com/_,Microsoft Teams,68,4,2024-11-13 07:42:08.0000000,,typed
+2024-11-13 08:05:18.0000000,https://onedrive.live.com/personal/,OneDrive,21,0,2024-11-13 08:05:18.0000000,,startup
+2024-11-13 08:14:00.0000000,https://drive-share.example.net/d/8841abf2/preview,Shared - vendor_packet.zip,1,0,2024-11-13 08:14:00.0000000,https://outlook.office365.com/mail/inbox,link
+2024-11-13 08:14:42.0000000,https://drive-share.example.net/d/8841abf2/download,Download vendor_packet.zip - 12.4 MB,1,0,2024-11-13 08:14:42.0000000,https://drive-share.example.net/d/8841abf2/preview,link
+2024-11-13 08:32:14.0000000,https://intranet.finance.example.com/dashboard,Finance Dashboard,142,8,2024-11-13 08:32:14.0000000,,reload
+2024-11-13 08:48:00.0000000,https://www.weather.example.com/,Local Weather,68,4,2024-11-13 08:48:00.0000000,,typed
+2024-11-13 09:00:14.0000000,https://outlook.office365.com/mail/inbox,Inbox - j.smith - Outlook,184,12,2024-11-13 09:00:14.0000000,,reload
+2024-11-13 09:08:18.0000000,https://intranet.finance.example.com/vendors/onboard,Vendor Onboarding,18,1,2024-11-13 09:08:18.0000000,https://intranet.finance.example.com/dashboard,link
+2024-11-13 09:18:42.0000000,https://www.bing.com/search?q=open+xlsx+from+usb+read+only,open xlsx from usb read only - Bing,1,0,2024-11-13 09:18:42.0000000,,typed
+2024-11-13 09:19:14.0000000,https://answers.microsoft.com/en-us/msoffice/forum/all/excel-read-only-from-usb-drive,Excel read only from USB drive - Microsoft Community,1,0,2024-11-13 09:19:14.0000000,https://www.bing.com/search?q=open+xlsx+from+usb+read+only,link
+2024-11-13 09:22:11.0000000,https://teams.microsoft.com/_,Microsoft Teams,68,4,2024-11-13 09:22:11.0000000,,typed
+2024-11-13 09:24:42.0000000,https://outlook.office365.com/mail/inbox,Inbox - j.smith - Outlook,184,12,2024-11-13 09:24:42.0000000,,reload
+2024-11-13 09:28:00.0000000,https://intranet.finance.example.com/dashboard,Finance Dashboard,142,8,2024-11-13 09:28:00.0000000,,reload
+2024-11-13 09:30:42.0000000,https://www.bing.com/search?q=usb+drive+suddenly+disconnect,usb drive suddenly disconnect - Bing,1,0,2024-11-13 09:30:42.0000000,,typed
+2024-11-12 16:18:00.0000000,https://intranet.finance.example.com/budgets/fy25,FY25 Budget Workspace,42,2,2024-11-12 16:18:00.0000000,https://intranet.finance.example.com/dashboard,link
+2024-11-12 14:22:00.0000000,https://outlook.office365.com/mail/inbox,Inbox - j.smith - Outlook,184,12,2024-11-12 14:22:00.0000000,,reload
+2024-11-08 13:42:00.0000000,https://www.bing.com/search?q=monthly+expense+report+template,monthly expense report template - Bing,1,0,2024-11-08 13:42:00.0000000,,typed

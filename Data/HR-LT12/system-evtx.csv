@@ -1,0 +1,23 @@
+RecordNumber,TimeCreated,EventID,Channel,Provider,Computer,Level,Description,Payload
+184108,2024-11-08 08:41:02.0000000,6005,System,EventLog,HR-LT12.finance.local,Information,Event log service started,The Event log service was started.
+184112,2024-11-08 19:06:18.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=Windows Error Reporting Service State=Running
+184118,2024-11-08 19:14:02.0000000,1074,System,User32,HR-LT12.finance.local,Information,System shutdown initiated,Process C:\Windows\System32\shutdown.exe (HR-LT12) has initiated the restart of computer HR-LT12 on behalf of user FINANCE\hr-user Reason=Other (Unplanned) ShutdownType=restart
+184402,2024-11-12 02:00:00.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=Windows Update State=Running
+184404,2024-11-12 02:14:11.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=Volume Shadow Copy State=Running
+184406,2024-11-12 02:48:00.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=Volume Shadow Copy State=Stopped
+184408,2024-11-12 03:00:11.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=Background Intelligent Transfer Service State=Running
+184412,2024-11-12 09:12:38.0000000,6013,System,EventLog,HR-LT12.finance.local,Information,System uptime,The system uptime is 25718 seconds.
+184414,2024-11-12 09:12:44.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=User Profile Service State=Running
+184418,2024-11-12 12:04:22.0000000,7040,System,Service Control Manager,HR-LT12.finance.local,Information,Service start type changed,ServiceName=Windows Update StartType changed from demand start to auto start
+184502,2024-11-12 16:42:08.0000000,219,System,Microsoft-Windows-Kernel-PnP,HR-LT12.finance.local,Information,Driver loaded for device,DeviceInstanceId=USB\VID_0951&PID_1666\001A92053B7CBE3196B40A0F DriverName=usbstor.inf ClassGuid={36fc9e60-c465-11cf-8056-444553540000} Status=0x0
+184503,2024-11-12 16:42:09.0000000,20001,System,Microsoft-Windows-UserPnp,HR-LT12.finance.local,Information,Driver installation completed,Driver Management concluded the process to install driver disk.inf_amd64_9c3f7b2a1d04e881\disk.inf for Device Instance ID USB\VID_0951&PID_1666\001A92053B7CBE3196B40A0F with the following status: 0x0.
+184504,2024-11-12 16:42:10.0000000,20003,System,Microsoft-Windows-UserPnp,HR-LT12.finance.local,Information,Service installation for device completed,Driver Management has concluded the process to add Service disk for Device Instance ID USB\VID_0951&PID_1666\001A92053B7CBE3196B40A0F with the following status: 0x0.
+184506,2024-11-12 16:42:14.0000000,98,System,Microsoft-Windows-Ntfs,HR-LT12.finance.local,Information,Volume is healthy,Volume {f1d2e9a4-77c0-4b91-83be-ab4a0ed1c6e5} (E:) is healthy. No action is needed.
+184508,2024-11-12 16:42:16.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=Portable Device Enumerator Service State=Running
+184540,2024-11-12 17:31:02.0000000,225,System,Microsoft-Windows-Kernel-PnP,HR-LT12.finance.local,Information,Device removal request,The application \Device\HarddiskVolume3\Windows\explorer.exe with process id 18560 stopped the removal or ejection for the device USB\VID_0951&PID_1666\001A92053B7CBE3196B40A0F.
+184541,2024-11-12 17:31:04.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=Portable Device Enumerator Service State=Stopped
+184580,2024-11-12 17:42:22.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=User Profile Service State=Stopped
+184582,2024-11-12 17:42:41.0000000,6006,System,EventLog,HR-LT12.finance.local,Information,Event log service stopped,The Event log service was stopped.
+184584,2024-11-13 07:02:18.0000000,6005,System,EventLog,HR-LT12.finance.local,Information,Event log service started,The Event log service was started.
+184586,2024-11-13 07:02:20.0000000,6013,System,EventLog,HR-LT12.finance.local,Information,System uptime,The system uptime is 8 seconds.
+184588,2024-11-13 07:04:11.0000000,7036,System,Service Control Manager,HR-LT12.finance.local,Information,Service state changed,ServiceName=Windows Defender Antivirus Service State=Running

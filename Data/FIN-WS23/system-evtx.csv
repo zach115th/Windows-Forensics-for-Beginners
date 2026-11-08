@@ -1,0 +1,21 @@
+RecordNumber,TimeCreated,EventID,Channel,Provider,Computer,Level,Description,Payload
+214102,2024-11-13 02:00:00.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Windows Update State=Running
+214104,2024-11-13 02:14:11.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Volume Shadow Copy State=Running
+214106,2024-11-13 02:48:00.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Volume Shadow Copy State=Stopped
+214108,2024-11-13 03:00:11.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Background Intelligent Transfer Service State=Running
+214112,2024-11-13 03:42:18.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Windows Update State=Stopped
+214116,2024-11-13 06:28:11.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=User Profile Service State=Running
+214118,2024-11-13 06:30:00.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Windows Search State=Running
+214124,2024-11-13 06:42:18.0000000,6013,System,EventLog,FIN-WS23.finance.local,Information,System uptime,The system uptime is 16358 seconds.
+214132,2024-11-13 06:59:20.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Windows Error Reporting Service State=Running
+214134,2024-11-13 07:04:44.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Windows Error Reporting Service State=Stopped
+214138,2024-11-13 07:18:00.0000000,7040,System,Service Control Manager,FIN-WS23.finance.local,Information,Service start type changed,ServiceName=Windows Update StartType changed from demand start to auto start
+214202,2024-11-13 09:14:08.0000000,219,System,Microsoft-Windows-Kernel-PnP,FIN-WS23.finance.local,Information,Driver loaded for device,DeviceInstanceId=USB\VID_0781&PID_5567\4C530001190405104544 DriverName=usbstor.inf ClassGuid={36fc9e60-c465-11cf-8056-444553540000} Status=0x0
+214203,2024-11-13 09:14:09.0000000,20001,System,Microsoft-Windows-UserPnp,FIN-WS23.finance.local,Information,Driver installation completed,Driver Management concluded the process to install driver disk.inf_amd64_9c3f7b2a1d04e881\disk.inf for Device Instance ID USB\VID_0781&PID_5567\4C530001190405104544 with the following status: 0x0.
+214204,2024-11-13 09:14:10.0000000,20003,System,Microsoft-Windows-UserPnp,FIN-WS23.finance.local,Information,Service installation for device completed,Driver Management has concluded the process to add Service disk for Device Instance ID USB\VID_0781&PID_5567\4C530001190405104544 with the following status: 0x0.
+214206,2024-11-13 09:14:12.0000000,98,System,Microsoft-Windows-Ntfs,FIN-WS23.finance.local,Information,Volume is healthy,Volume {b4d722a1-1142-11ef-8a4f-0c9d92841421} (F:) is healthy. No action is needed.
+214208,2024-11-13 09:14:14.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Portable Device Enumerator Service State=Running
+214240,2024-11-13 09:24:47.0000000,225,System,Microsoft-Windows-Kernel-PnP,FIN-WS23.finance.local,Information,Device removal request,The application \Device\HarddiskVolume3\Windows\explorer.exe with process id 22656 stopped the removal or ejection for the device USB\VID_0781&PID_5567\4C530001190405104544.
+214242,2024-11-13 09:24:49.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=Portable Device Enumerator Service State=Stopped
+214302,2024-11-13 12:04:22.0000000,7036,System,Service Control Manager,FIN-WS23.finance.local,Information,Service state changed,ServiceName=User Profile Service State=Stopped
+214304,2024-11-13 12:04:41.0000000,6006,System,EventLog,FIN-WS23.finance.local,Information,Event log service stopped,The Event log service was stopped.

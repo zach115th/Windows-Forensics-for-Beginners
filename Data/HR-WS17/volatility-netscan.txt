@@ -1,0 +1,26 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+Offset  Proto   LocalAddr       LocalPort       ForeignAddr     ForeignPort     State   PID     Owner   Created
+
+0xb28c53a0c010  TCPv4   0.0.0.0 135     0.0.0.0 0       LISTENING       836     svchost.exe     2024-11-12 02:14:09.000000
+0xb28c53a0c180  TCPv6   ::      135     ::      0       LISTENING       836     svchost.exe     2024-11-12 02:14:09.000000
+0xb28c53a0c2f0  TCPv4   0.0.0.0 445     0.0.0.0 0       LISTENING       4       System  2024-11-12 02:14:00.000000
+0xb28c53a0c460  TCPv4   0.0.0.0 5040    0.0.0.0 0       LISTENING       1042    svchost.exe     2024-11-12 02:14:10.000000
+0xb28c53a0c5d0  TCPv4   127.0.0.1       49670   0.0.0.0 0       LISTENING       3184    OneDrive.exe    2024-11-12 08:42:55.000000
+0xb28c53a0c740  TCPv4   127.0.0.1       51884   0.0.0.0 0       LISTENING       6428    OneDrive.exe    2024-11-12 17:46:03.000000
+0xb28c53a1a010  TCPv4   10.0.4.51       51204   52.96.128.45    443     ESTABLISHED     3024    OUTLOOK.EXE     2024-11-12 08:48:16.000000
+0xb28c53a1a180  TCPv4   10.0.4.51       51208   52.96.128.45    443     ESTABLISHED     3024    OUTLOOK.EXE     2024-11-12 08:48:16.000000
+0xb28c53a1a2f0  TCPv4   10.0.4.51       51442   13.107.42.14    443     ESTABLISHED     3184    OneDrive.exe    2024-11-12 08:42:57.000000
+0xb28c53a1a460  TCPv4   10.0.4.51       51448   13.107.42.14    443     CLOSE_WAIT      3184    OneDrive.exe    2024-11-12 14:00:18.000000
+0xb28c53a2a010  TCPv4   10.0.4.51       52108   13.107.42.12    443     ESTABLISHED     6428    OneDrive.exe    2024-11-12 17:46:04.000000
+0xb28c53a2a180  TCPv4   10.0.4.51       52112   13.107.42.12    443     ESTABLISHED     6428    OneDrive.exe    2024-11-12 17:46:44.000000
+0xb28c53a2a2f0  TCPv4   10.0.4.51       52118   40.126.32.78    443     CLOSED  6428    OneDrive.exe    2024-11-12 17:46:02.000000
+0xb28c53a3a010  TCPv4   10.0.4.51       52404   40.126.32.78    443     CLOSE_WAIT      6604    msedge.exe      2024-11-12 17:51:04.000000
+0xb28c53a3a180  TCPv4   10.0.4.51       52408   52.96.128.51    443     ESTABLISHED     6604    msedge.exe      2024-11-12 17:51:04.000000
+0xb28c53a3a2f0  TCPv4   10.0.4.51       52412   52.96.128.51    443     ESTABLISHED     6604    msedge.exe      2024-11-12 17:52:11.000000
+0xb28c53a3a460  TCPv4   10.0.4.51       52418   13.107.21.200   443     TIME_WAIT       6604    msedge.exe      2024-11-12 17:53:04.000000
+0xb28c53a4a010  TCPv4   10.0.4.51       50218   13.107.4.50     443     CLOSE_WAIT      908     svchost.exe     2024-11-12 03:00:14.000000
+0xb28c53a4a180  TCPv4   10.0.4.51       50442   13.107.42.14    443     ESTABLISHED     1712    MsMpEng.exe     2024-11-12 12:00:04.000000
+0xb28c53a4a2f0  UDPv4   10.0.4.51       55004   *       0               1188    svchost.exe     2024-11-12 02:14:11.000000
+0xb28c53a4a460  UDPv4   10.0.4.51       138     *       0               4       System  2024-11-12 02:14:00.000000

@@ -1,0 +1,46 @@
+USN,EntryNumber,ParentEntryNumber,FileName,Extension,ParentPath,FullPath,UpdateTimestamp,UpdateReasons
+1842892160,9422,2308,HR_Onboarding.docx,docx,Users\hr-user\Documents,Users\hr-user\Documents\HR_Onboarding.docx,2024-11-08 09:14:00.0000000,BasicInfoChange
+1842892224,14108,2309,benefits_2025.pdf,pdf,Users\hr-user\Downloads,Users\hr-user\Downloads\benefits_2025.pdf,2024-11-08 09:42:00.0000000,FileCreate|DataExtend|FileClose
+1842892288,20420,20419,Q4_Customer_Pricing.xlsx,xlsx,HR\Pricing,HR\Pricing\Q4_Customer_Pricing.xlsx,2024-11-12 17:38:42.0000000,BasicInfoChange
+1842892352,22419,2546,~$Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\~$Q4_Customer_Pricing.xlsx,2024-11-12 17:38:42.0000000,FileCreate|DataExtend
+1842892416,4319,4318,Q4_Customer_Pricing.lnk,lnk,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent\Q4_Customer_Pricing.lnk,2024-11-12 17:38:42.5000000,FileCreate|DataExtend|FileClose
+1842892480,22417,2546,Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Q4_Customer_Pricing.xlsx,2024-11-12 17:39:05.0000000,FileCreate|DataExtend
+1842892544,22417,2546,Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Q4_Customer_Pricing.xlsx,2024-11-12 17:39:05.5000000,DataExtend|FileClose
+1842892608,22418,2546,Pricing_Strategy_Confidential.docx,docx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Pricing_Strategy_Confidential.docx,2024-11-12 17:39:18.0000000,FileCreate|DataExtend
+1842892672,4320,4318,Pricing_Strategy_Confidential.lnk,lnk,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent\Pricing_Strategy_Confidential.lnk,2024-11-12 17:39:18.0000000,FileCreate|DataExtend|FileClose
+1842892736,22418,2546,Pricing_Strategy_Confidential.docx,docx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Pricing_Strategy_Confidential.docx,2024-11-12 17:39:18.5000000,DataExtend|FileClose
+1842892800,4321,4318,Margins_Q3.lnk,lnk,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent\Margins_Q3.lnk,2024-11-12 17:39:42.0000000,FileCreate|DataExtend|FileClose
+1842892864,20422,20419,Margins_Q3.xlsx,xlsx,HR\Pricing,HR\Pricing\Margins_Q3.xlsx,2024-11-12 17:39:42.0000000,BasicInfoChange
+1842892928,22421,2546,pricing-staging.zip,zip,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\pricing-staging.zip,2024-11-12 17:40:11.0000000,FileCreate|DataExtend|FileClose
+1842892992,6427,6422,7ZG.EXE-A1B2C3D4.pf,pf,Windows\Prefetch,Windows\Prefetch\7ZG.EXE-A1B2C3D4.pf,2024-11-12 17:40:11.0000000,FileCreate|DataExtend
+1842893056,2218,2118,NTUSER.DAT,DAT,Users\hr-user,Users\hr-user\NTUSER.DAT,2024-11-12 17:42:14.0000000,DataExtend
+1842893120,1297,1295,SYSTEM,,Windows\System32\config,Windows\System32\config\SYSTEM,2024-11-12 17:42:14.0000000,DataExtend
+1842893184,4322,4318,Q4_Customer_Pricing (E).lnk,lnk,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent\Q4_Customer_Pricing (E).lnk,2024-11-12 17:44:18.0000000,FileCreate|DataExtend|FileClose
+1842893248,22417,2546,Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Q4_Customer_Pricing.xlsx,2024-11-12 17:44:18.0000000,BasicInfoChange
+1842893312,4323,4318,Pricing_Strategy_Confidential (E).lnk,lnk,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent\Pricing_Strategy_Confidential (E).lnk,2024-11-12 17:44:55.0000000,FileCreate|DataExtend|FileClose
+1842893376,4324,4318,Margins_Q3 (E).lnk,lnk,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent,Users\hr-user\AppData\Roaming\Microsoft\Windows\Recent\Margins_Q3 (E).lnk,2024-11-12 17:45:32.0000000,FileCreate|DataExtend|FileClose
+1842893440,2592,2580,OneDrive,,Users\hr-user\AppData\Local\Microsoft,Users\hr-user\AppData\Local\Microsoft\OneDrive,2024-11-12 17:46:02.0000000,DataExtend
+1842893504,2595,2594,SyncDiagnostics-2024-11-12.log,log,Users\hr-user\AppData\Local\Microsoft\OneDrive\logs\Personal,Users\hr-user\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncDiagnostics-2024-11-12.log,2024-11-12 17:46:02.0000000,DataExtend
+1842893568,22431,2118,OneDrive,,Users\hr-user,Users\hr-user\OneDrive,2024-11-12 17:46:02.0000000,FileCreate|DataExtend
+1842893632,1296,1295,SOFTWARE,,Windows\System32\config,Windows\System32\config\SOFTWARE,2024-11-12 17:46:02.0000000,DataExtend
+1842893696,6425,6422,ONEDRIVE.EXE-3A1B2C4D.pf,pf,Windows\Prefetch,Windows\Prefetch\ONEDRIVE.EXE-3A1B2C4D.pf,2024-11-12 17:46:02.0000000,DataExtend
+1842893760,22432,22431,Pricing-Backup,,Users\hr-user\OneDrive,Users\hr-user\OneDrive\Pricing-Backup,2024-11-12 17:46:14.0000000,FileCreate|DataExtend
+1842893824,22433,22432,Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\OneDrive\Pricing-Backup,Users\hr-user\OneDrive\Pricing-Backup\Q4_Customer_Pricing.xlsx,2024-11-12 17:46:42.0000000,FileCreate|DataExtend
+1842893888,22433,22432,Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\OneDrive\Pricing-Backup,Users\hr-user\OneDrive\Pricing-Backup\Q4_Customer_Pricing.xlsx,2024-11-12 17:46:42.5000000,DataExtend|FileClose
+1842893952,2595,2594,SyncDiagnostics-2024-11-12.log,log,Users\hr-user\AppData\Local\Microsoft\OneDrive\logs\Personal,Users\hr-user\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncDiagnostics-2024-11-12.log,2024-11-12 17:48:41.0000000,DataExtend
+1842894016,22434,22432,Pricing_Strategy_Confidential.docx,docx,Users\hr-user\OneDrive\Pricing-Backup,Users\hr-user\OneDrive\Pricing-Backup\Pricing_Strategy_Confidential.docx,2024-11-12 17:48:41.0000000,FileCreate|DataExtend
+1842894080,22434,22432,Pricing_Strategy_Confidential.docx,docx,Users\hr-user\OneDrive\Pricing-Backup,Users\hr-user\OneDrive\Pricing-Backup\Pricing_Strategy_Confidential.docx,2024-11-12 17:48:41.5000000,DataExtend|FileClose
+1842894144,2595,2594,SyncDiagnostics-2024-11-12.log,log,Users\hr-user\AppData\Local\Microsoft\OneDrive\logs\Personal,Users\hr-user\AppData\Local\Microsoft\OneDrive\logs\Personal\SyncDiagnostics-2024-11-12.log,2024-11-12 17:49:18.0000000,DataExtend|FileClose
+1842894208,22417,2546,Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Q4_Customer_Pricing.xlsx,2024-11-12 17:55:11.0000000,FileDelete
+1842894272,22418,2546,Pricing_Strategy_Confidential.docx,docx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Pricing_Strategy_Confidential.docx,2024-11-12 17:55:11.0000000,FileDelete
+1842894336,22417,2546,Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Q4_Customer_Pricing.xlsx,2024-11-12 17:55:11.5000000,FileDelete|FileClose
+1842894400,22418,2546,Pricing_Strategy_Confidential.docx,docx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\Pricing_Strategy_Confidential.docx,2024-11-12 17:55:11.5000000,FileDelete|FileClose
+1842894464,22419,2546,~$Q4_Customer_Pricing.xlsx,xlsx,Users\hr-user\AppData\Local\Temp,Users\hr-user\AppData\Local\Temp\~$Q4_Customer_Pricing.xlsx,2024-11-12 17:55:48.0000000,FileDelete|FileClose
+1842894528,20420,20419,Q4_Customer_Pricing.xlsx,xlsx,HR\Pricing,HR\Pricing\Q4_Customer_Pricing.xlsx,2024-11-12 17:57:42.0000000,FileDelete
+1842894592,20421,20419,Pricing_Strategy_Confidential.docx,docx,HR\Pricing,HR\Pricing\Pricing_Strategy_Confidential.docx,2024-11-12 17:57:42.0000000,FileDelete
+1842894656,20422,20419,Margins_Q3.xlsx,xlsx,HR\Pricing,HR\Pricing\Margins_Q3.xlsx,2024-11-12 17:57:42.0000000,FileDelete
+1842894720,20419,20418,Pricing,,HR,HR\Pricing,2024-11-12 17:57:42.0000000,FileDelete
+1842894784,20418,5,HR,,.,.\HR,2024-11-12 17:57:42.5000000,FileDelete|FileClose
+1842894848,1306,1305,SRUDB.dat,dat,Windows\System32\sru,Windows\System32\sru\SRUDB.dat,2024-11-12 18:00:00.0000000,DataExtend
+1842894912,2218,2118,NTUSER.DAT,DAT,Users\hr-user,Users\hr-user\NTUSER.DAT,2024-11-12 18:02:14.0000000,DataExtend
+1842894976,1292,1291,Security.evtx,evtx,Windows\System32\winevt\Logs,Windows\System32\winevt\Logs\Security.evtx,2024-11-12 18:02:14.0000000,DataExtend

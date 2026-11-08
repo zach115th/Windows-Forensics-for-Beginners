@@ -1,0 +1,71 @@
+[Device Install Log]
+     OS Version = 10.0.19045
+     Service Pack = 0.0
+     Suite = 0x0100
+     ProductType = 1
+     Architecture = amd64
+
+[BeginLog]
+
+[Boot Session: 2024/11/12 02:03:59.882]
+
+>>>  [Setup online Device Install (Hardware initiated) - USB\VID_0951&PID_1666\001A92053B7CBE3196B40A0F]
+>>>  Section start 2024/11/12 16:42:08.421
+     ump: Creating Install Process: DrvInst.exe 16:42:08.428
+     ndv: Retrieving device info...
+     ndv: Setting device parameters...
+     ndv: Searching Driver Store and Device Path...
+     dvi: {Build Driver List} 16:42:08.510
+     dvi:      Searching for hardware ID(s):
+     dvi:           usb\vid_0951&pid_1666&rev_0100
+     dvi:           usb\vid_0951&pid_1666
+     dvi:      Searching for compatible ID(s):
+     dvi:           usb\class_08&subclass_06&prot_50
+     dvi:           usb\class_08&subclass_06
+     dvi:           usb\class_08
+     dvi: {Build Driver List - exit(0x00000000)} 16:42:08.612
+     dvi: {DIF_SELECTBESTCOMPATDRV} 16:42:08.614
+     dvi:      Class GUID of device changed to: {36fc9e60-c465-11cf-8056-444553540000}.
+     dvi:      Selected driver installs from section [USBSTOR_BULK.NT] in 'usbstor.inf'.
+     dvi:      Selected: usbstor.inf_amd64_5d40123abc781ee9\usbstor.inf
+     dvi:      Description - [USB Mass Storage Device]
+     dvi:      Manufacturer - [Compatible USB storage device]
+     dvi:      Provider     - [Microsoft]
+     dvi:      Mfg Rank     - 0x00000000, Type Rank - 0x00ff2000
+     dvi: {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 16:42:08.701
+     ndv: Driver selection complete.
+     ndv: {Core Device Install} 16:42:08.812
+     dvi: Set selected driver complete.
+     dvi: {Plug and Play Service: Device Install for USB\VID_0951&PID_1666\001A92053B7CBE3196B40A0F}
+     ndv:      Driver INF Path:    C:\Windows\INF\usbstor.inf
+     ndv:      Driver Node Name:   usbstor.inf:Generic.Mfg.NTamd64:USBSTOR_BULK.NT:10.0.19041.1:USB\Class_08&SubClass_06&Prot_50
+     dvi:      Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+     dvi:      Class Name:         USB
+     dvi:      Driver Date:        06/21/2006
+     dvi:      Driver Version:     10.0.19041.1
+     dvi:      Driver Provider:    Microsoft
+     dvi: Searching for hardware ID(s):
+     dvi:      usb\vid_0951&pid_1666&rev_0100
+     dvi:      usb\vid_0951&pid_1666
+     dvi: {Install Device - USB\VID_0951&PID_1666\001A92053B7CBE3196B40A0F} 16:42:09.014
+     dvi:      Parent device: USB\ROOT_HUB30\4&1eaf73b9&0&0
+     dvi:      Friendly name: Kingston DataTraveler 3.0 USB Device
+     dvi:      Serial number: 001A92053B7CBE3196B40A0F
+     ndv: Installing files...
+     dvi: Class installer: Enter 16:42:09.118
+     dvi: Class installer: Exit
+     dvi: Default installer: Enter 16:42:09.224
+     dvi: Default installer: Exit
+     ndv: {Core Device Install - exit(0x00000000)} 16:42:09.612
+<<<  Section end 2024/11/12 16:42:09.812
+<<<  [Exit status: SUCCESS]
+
+>>>  [Setup online Device Install (Hardware initiated) - STORAGE\Volume\{f1d2e9a4-77c0-4b91-83be-ab4a0ed1c6e5}]
+>>>  Section start 2024/11/12 16:42:13.708
+     dvi: Volume mount point assigned: \DosDevices\E:
+     dvi: VolumeGuid: {f1d2e9a4-77c0-4b91-83be-ab4a0ed1c6e5}
+     dvi: Friendly Name: Removable Disk (E:)
+     dvi: Class GUID: {71a27cdd-812a-11d0-bec7-08002be2092f}
+     dvi: Filesystem detected: NTFS
+<<<  Section end 2024/11/12 16:42:14.221
+<<<  [Exit status: SUCCESS]

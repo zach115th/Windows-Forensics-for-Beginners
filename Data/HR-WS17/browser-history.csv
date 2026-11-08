@@ -1,0 +1,21 @@
+VisitId,VisitTime,Url,Title,VisitDuration,VisitCount,TypedCount,FromVisit,Transition,UserProfile
+14821,2024-11-12 08:48:42.0000000,https://outlook.office.com/mail/inbox,Inbox - hr-user@finance.example.com - Outlook,184,42,12,0,LINK|FROM_ADDRESS_BAR,Default
+14822,2024-11-12 09:14:08.0000000,https://finance.sharepoint.com/sites/HR/Shared%20Documents/Forms/AllItems.aspx,All Documents - HR - Finance Corp,212,18,2,0,LINK,Default
+14823,2024-11-12 09:32:11.0000000,https://outlook.office.com/mail/inbox/id/AAQk...,RE: Q4 pricing review - hr-user@finance.example.com,68,1,0,14821,LINK,Default
+14824,2024-11-12 11:14:22.0000000,https://www.bing.com/search?q=excel+conditional+formatting+entire+row,excel conditional formatting entire row - Search,42,3,0,0,TYPED,Default
+14825,2024-11-12 11:14:55.0000000,https://support.microsoft.com/en-us/office/use-conditional-formatting-to-highlight-information,Use conditional formatting to highlight information - Microsoft Support,124,1,0,14824,LINK,Default
+14826,2024-11-12 12:18:00.0000000,https://www.bbc.com/news,Home - BBC News,84,8,2,0,TYPED,Default
+14827,2024-11-12 12:32:04.0000000,https://outlook.office.com/calendar/view/workweek,Calendar - hr-user@finance.example.com - Outlook,212,12,0,0,LINK|FROM_ADDRESS_BAR,Default
+14828,2024-11-12 13:42:18.0000000,https://learn.microsoft.com/en-us/office/troubleshoot/excel/excel-formula-issues,Troubleshoot Excel formula issues - Office,184,2,0,0,LINK,Default
+14829,2024-11-12 17:50:42.0000000,https://login.live.com/?wa=wsignin1.0,Sign in to your Microsoft account,18,3,1,0,TYPED,Default
+14830,2024-11-12 17:50:58.0000000,https://login.live.com/login.srf,Sign in to your Microsoft account,28,2,0,14829,LINK,Default
+14831,2024-11-12 17:51:04.0000000,https://outlook.live.com/mail/0/,Mail - hr.user.personal@outlook.com - Outlook,184,1,1,14830,LINK,Default
+14832,2024-11-12 17:52:11.0000000,https://outlook.live.com/mail/0/deeplink/compose,New message - Outlook,142,1,0,14831,LINK,Default
+14833,2024-11-12 17:54:42.0000000,https://outlook.live.com/mail/0/sentitems,Sent Items - Outlook,32,1,0,14832,LINK,Default
+14834,2024-11-12 17:55:48.0000000,https://outlook.live.com/mail/0/,Mail - hr.user.personal@outlook.com - Outlook,84,1,0,14833,LINK,Default
+14835,2024-11-12 17:57:18.0000000,https://login.live.com/logout.srf,Signed out - Microsoft account,12,1,0,14834,LINK,Default
+14836,2024-11-12 14:18:00.0000000,https://www.linkedin.com/feed/,LinkedIn,184,4,1,0,TYPED,Default
+14837,2024-11-12 14:32:11.0000000,https://www.linkedin.com/jobs/search,Jobs - LinkedIn,142,4,0,14836,LINK,Default
+14838,2024-11-12 15:42:08.0000000,https://www.indeed.com/jobs?q=pricing+analyst&l=,pricing analyst Jobs - Indeed,212,2,1,0,TYPED,Default
+14839,2024-11-08 13:18:00.0000000,https://benefits.financecorp.example.com/2025-overview,2025 Benefits Overview - Finance Corp,184,1,0,0,LINK,Default
+14840,2024-11-12 17:58:41.0000000,https://outlook.office.com/mail/sentitems,Sent Items - hr-user@finance.example.com - Outlook,42,8,0,0,LINK|FROM_ADDRESS_BAR,Default

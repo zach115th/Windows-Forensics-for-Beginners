@@ -1,0 +1,44 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+PID     Process Args
+
+4       System  Required memory at 0x20 is not valid (process exited?)
+88      Registry        Required memory at 0x20 is not valid (process exited?)
+356     smss.exe        \SystemRoot\System32\smss.exe
+472     csrss.exe       %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+556     wininit.exe     wininit.exe
+564     csrss.exe       %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+648     winlogon.exe    winlogon.exe
+704     services.exe    C:\Windows\system32\services.exe
+724     lsass.exe       C:\Windows\system32\lsass.exe
+836     svchost.exe     C:\Windows\system32\svchost.exe -k DcomLaunch -p
+908     svchost.exe     C:\Windows\system32\svchost.exe -k netsvcs -p
+984     svchost.exe     C:\Windows\system32\svchost.exe -k UnistackSvcGroup
+1042    svchost.exe     C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork -p
+1188    svchost.exe     C:\Windows\system32\svchost.exe -k LocalServiceNetworkRestricted -p
+1284    fontdrvhost.exe C:\Windows\system32\fontdrvhost.exe
+1348    dwm.exe "dwm.exe"
+1584    spoolsv.exe     C:\Windows\system32\spoolsv.exe
+1712    MsMpEng.exe     "C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.24090.11-0\MsMpEng.exe"
+1884    SearchIndexer.exe       C:\Windows\system32\SearchIndexer.exe /Embedding
+2104    SecurityHealthService.exe       "C:\Windows\System32\SecurityHealthService.exe"
+2288    sihost.exe      C:\Windows\system32\sihost.exe
+2344    taskhostw.exe   C:\Windows\system32\taskhostw.exe KEYROAMING
+2412    userinit.exe    Required memory at 0x20 is not valid (process exited?)
+2468    explorer.exe    C:\Windows\Explorer.EXE
+2596    RuntimeBroker.exe       C:\Windows\system32\RuntimeBroker.exe -Embedding
+2704    ctfmon.exe      "ctfmon.exe"
+3024    OUTLOOK.EXE     "C:\Program Files\Microsoft Office\root\Office16\OUTLOOK.EXE"
+3184    OneDrive.exe    "C:\Users\hr-user\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
+4218    EXCEL.EXE       "C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE" "C:\HR\Pricing\Q4_Customer_Pricing.xlsx"
+4258    WINWORD.EXE     "C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE" "C:\HR\Pricing\Pricing_Strategy_Confidential.docx"
+5842    dllhost.exe     C:\Windows\system32\DllHost.exe /Processid:{3EB3C877-1F16-487C-9050-104DBCD66683}
+6428    OneDrive.exe    "C:\Users\hr-user\AppData\Local\Microsoft\OneDrive\OneDrive.exe" /background
+6604    msedge.exe      "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --new-window https://outlook.live.com/mail/0/
+6648    msedge.exe      "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=crashpad-handler --database=C:\Users\hr-user\AppData\Local\Microsoft\Edge\User Data\Crashpad --annotation=plat=Win64
+6702    msedge.exe      "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=gpu-process --gpu-preferences=WAAAA
+6744    msedge.exe      "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=renderer --lang=en-GB --js-flags=--harmony --renderer-client-id=5
+7108    WmiPrvSE.exe    C:\Windows\system32\wbem\wmiprvse.exe -Embedding
+7284    winpmem_mini_x6 winpmem_mini_x64_rc2.exe \\10.0.4.12\ir$\HR-WS17\HR-WS17-memory.raw
+7290    conhost.exe     \??\C:\WINDOWS\system32\conhost.exe 0xffffffff -ForceV1
