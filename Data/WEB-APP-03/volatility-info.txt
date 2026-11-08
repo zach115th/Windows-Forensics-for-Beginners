@@ -1,0 +1,34 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+Variable        Value
+
+Kernel Base     0xf8042b400000
+DTB     0x1ad000
+Symbols file:///opt/volatility3/volatility3/symbols/windows/ntkrnlmp.pdb/3FBDD09B7E10F18B85C0F0B0CCB0F31D-1.json.xz
+Is64Bit True
+IsPAE   False
+layer_name      0 WindowsIntel32e
+memory_layer    1 FileLayer
+KdVersionBlock  0xf8042b427108
+Major/Minor     15.17763
+MachineType     34404
+KeNumberProcessors      4
+SystemTime      2024-11-21 10:42:11
+NtSystemRoot    C:\Windows
+NtProductType   NtProductLanManNt
+NtMajorVersion  10
+NtMinorVersion  0
+PE MajorOperatingSystemVersion  10
+PE MinorOperatingSystemVersion  0
+PE Machine      34404
+PE TimeDateStamp        Sat Sep 15 07:28:02 2018
+NTBuildLab      17763.1.amd64fre.rs5_release.180914-1434
+CSDVersion
+ProductName     Windows Server 2019 Datacenter
+NtBuildNumber   17763
+NtBuildLabEx    17763.5329.amd64fre.rs5_release_svc_prod1.240106-1700
+KdDebuggerDataBlock     0xf8042b424b30
+PsActiveProcessHead     0xf8042b4376a0
+PsLoadedModuleList      0xf8042b446340
+KernelFileName  ntoskrnl.exe

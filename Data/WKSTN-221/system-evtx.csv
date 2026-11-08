@@ -1,0 +1,19 @@
+RecordNumber,TimeCreated,EventID,Channel,Provider,Computer,Level,Description,Payload
+214221,2024-11-14 03:00:00.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=Windows Update State=Running
+214222,2024-11-14 03:02:11.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=Background Intelligent Transfer Service State=Running
+214223,2024-11-14 03:42:18.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=Windows Update State=Stopped
+214224,2024-11-14 03:42:21.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=Background Intelligent Transfer Service State=Stopped
+214225,2024-11-14 06:00:11.0000000,1,System,Microsoft-Windows-Time-Service,WKSTN-221.finance.local,Information,Time service synchronized,Source=time.windows.com Offset=+0.124s
+214226,2024-11-14 08:43:11.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=User Profile Service State=Running
+214227,2024-11-14 08:43:14.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=Windows Search State=Running
+214228,2024-11-14 11:14:22.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=ClickToRun Service State=Running
+214229,2024-11-14 13:14:00.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=ClickToRun Service State=Stopped
+214231,2024-11-14 14:18:55.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=ClickToRun Service State=Running
+214232,2024-11-14 14:30:04.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=Diagnostic Service Host State=Running
+214233,2024-11-14 14:30:08.0000000,7036,System,Service Control Manager,WKSTN-221.finance.local,Information,Service state changed,ServiceName=Diagnostic Service Host State=Stopped
+214230,2024-11-14 13:55:00.0000000,1,System,Microsoft-Windows-Kernel-General,WKSTN-221.finance.local,Information,The system time has changed,NewTime=2024-11-14 13:55:00 OldTime=2024-11-14 13:54:58 Reason=An application or system component changed the time ProcessName=C:\Windows\System32\svchost.exe
+214216,2024-11-13 22:00:00.0000000,1074,System,USER32,WKSTN-221.finance.local,Information,System shutdown initiated,Process=C:\Windows\System32\winlogon.exe User=NT AUTHORITY\SYSTEM Reason=Operating System: Service pack (Planned)
+214217,2024-11-13 22:00:14.0000000,6006,System,EventLog,WKSTN-221.finance.local,Information,Event log service stopped,
+214218,2024-11-14 02:13:48.0000000,12,System,Microsoft-Windows-Kernel-General,WKSTN-221.finance.local,Information,System started,StartTime=2024-11-14 02:13:48
+214219,2024-11-14 02:14:00.0000000,6005,System,EventLog,WKSTN-221.finance.local,Information,Event log service started,
+214220,2024-11-14 02:14:18.0000000,7045,System,Service Control Manager,WKSTN-221.finance.local,Information,Service installed,ServiceName=npcap ServiceFileName=\??\C:\Windows\System32\drivers\npcap.sys ServiceType=kernel mode driver StartType=demand start AccountName=LocalSystem

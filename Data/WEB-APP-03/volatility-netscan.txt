@@ -1,0 +1,38 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+Offset  Proto   LocalAddr       LocalPort       ForeignAddr     ForeignPort     State   PID     Owner   Created
+
+0xa18211a0c010  TCPv4   0.0.0.0 80      0.0.0.0 0       LISTENING       4       System  2024-11-21 06:30:14.000000
+0xa18211a0c180  TCPv6   ::      80      ::      0       LISTENING       4       System  2024-11-21 06:30:14.000000
+0xa18211a0c2f0  TCPv4   0.0.0.0 443     0.0.0.0 0       LISTENING       4       System  2024-11-21 06:30:14.000000
+0xa18211a0c460  TCPv6   ::      443     ::      0       LISTENING       4       System  2024-11-21 06:30:14.000000
+0xa18211a0c5d0  TCPv4   0.0.0.0 135     0.0.0.0 0       LISTENING       720     svchost.exe     2024-11-21 06:30:10.000000
+0xa18211a0c740  TCPv6   ::      135     ::      0       LISTENING       720     svchost.exe     2024-11-21 06:30:10.000000
+0xa18211a0c8b0  TCPv4   0.0.0.0 445     0.0.0.0 0       LISTENING       4       System  2024-11-21 06:30:02.000000
+0xa18211a0ca20  TCPv6   ::      445     ::      0       LISTENING       4       System  2024-11-21 06:30:02.000000
+0xa18211a0cb90  TCPv4   0.0.0.0 3389    0.0.0.0 0       LISTENING       1448    svchost.exe     2024-11-21 06:30:11.000000
+0xa18211a0cd00  TCPv6   ::      3389    ::      0       LISTENING       1448    svchost.exe     2024-11-21 06:30:11.000000
+0xa18211a0ce70  TCPv4   0.0.0.0 5985    0.0.0.0 0       LISTENING       4       System  2024-11-21 06:30:14.000000
+0xa18211a0cfe0  TCPv6   ::      5985    ::      0       LISTENING       4       System  2024-11-21 06:30:14.000000
+0xa18211a0d150  TCPv4   0.0.0.0 47001   0.0.0.0 0       LISTENING       4       System  2024-11-21 06:30:14.000000
+0xa18211a0d2c0  TCPv4   0.0.0.0 49664   0.0.0.0 0       LISTENING       524     wininit.exe     2024-11-21 06:30:09.000000
+0xa18211a0d430  TCPv4   0.0.0.0 49665   0.0.0.0 0       LISTENING       604     lsass.exe       2024-11-21 06:30:09.000000
+0xa18211a0d5a0  TCPv4   0.0.0.0 49666   0.0.0.0 0       LISTENING       596     services.exe    2024-11-21 06:30:09.000000
+0xa18211a0d710  TCPv4   0.0.0.0 49667   0.0.0.0 0       LISTENING       1448    svchost.exe     2024-11-21 06:30:11.000000
+0xa18211a0d880  TCPv4   10.0.8.34       139     0.0.0.0 0       LISTENING       4       System  2024-11-21 06:30:14.000000
+0xa18211a0d9f0  TCPv4   10.0.8.34       49710   10.0.4.5        389     ESTABLISHED     604     lsass.exe       2024-11-21 06:35:02.000000
+0xa18211a0db60  TCPv4   10.0.8.34       49712   10.0.4.5        88      ESTABLISHED     604     lsass.exe       2024-11-21 06:35:08.000000
+0xa18211a0dcd0  TCPv4   10.0.8.34       49718   10.0.4.5        445     ESTABLISHED     4       System  2024-11-21 06:35:11.000000
+0xa18211a0de40  TCPv4   10.0.8.34       49845   10.0.4.5        53      CLOSED  988     svchost.exe     2024-11-21 09:12:44.000000
+0xa18211a0dfb0  TCPv4   10.0.8.34       80      10.0.6.118      52183   ESTABLISHED     4       System  2024-11-21 10:14:09.000000
+0xa18211a0e120  TCPv4   10.0.8.34       80      10.0.6.118      52188   ESTABLISHED     4       System  2024-11-21 10:14:42.000000
+0xa18211a0e290  TCPv4   10.0.8.34       443     10.0.6.118      52312   ESTABLISHED     4       System  2024-11-21 10:17:55.000000
+0xa18211a0e400  TCPv4   10.0.8.34       49918   91.214.47.22    443     ESTABLISHED     3704    powershell.exe  2024-11-21 10:19:01.000000
+0xa18211a0e570  TCPv4   10.0.8.34       49922   10.0.4.12       445     ESTABLISHED     4       System  2024-11-21 10:25:18.000000
+0xa18211a0e6e0  TCPv4   10.0.8.34       49930   10.0.4.5        389     ESTABLISHED     604     lsass.exe       2024-11-21 10:32:11.000000
+0xa18211a0e850  UDPv4   0.0.0.0 53      *       0       NULL    988     svchost.exe     2024-11-21 06:30:10.000000
+0xa18211a0e9c0  UDPv4   0.0.0.0 123     *       0       NULL    988     svchost.exe     2024-11-21 06:30:10.000000
+0xa18211a0eb30  UDPv4   0.0.0.0 137     *       0       NULL    4       System  2024-11-21 06:30:14.000000
+0xa18211a0eca0  UDPv4   0.0.0.0 138     *       0       NULL    4       System  2024-11-21 06:30:14.000000
+0xa18211a0ee10  UDPv4   0.0.0.0 5355    *       0       NULL    1244    svchost.exe     2024-11-21 06:30:11.000000

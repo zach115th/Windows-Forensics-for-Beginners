@@ -1,0 +1,10 @@
+Timestamp,Action,SourceIP,SourcePort,DestIP,DestPort,Protocol,SourceHost,DestHost,RuleName
+2024-11-14 02:42:00,Deny,103.41.200.74,49100,10.0.4.18,3389,TCP,(external),filesvr-03.finance.local,Block-Inbound-RDP-WAN
+2024-11-14 02:42:14,Deny,103.41.200.74,49101,10.0.4.32,3389,TCP,(external),wkstn-221.finance.local,Block-Inbound-RDP-WAN
+2024-11-14 04:00:11,Deny,185.193.126.47,49002,10.0.4.45,445,TCP,(external),fin-ws23.finance.local,Block-Inbound-SMB-WAN
+2024-11-14 04:00:24,Deny,185.193.126.47,49003,10.0.4.51,445,TCP,(external),hr-lt12.finance.local,Block-Inbound-SMB-WAN
+2024-11-14 04:00:42,Deny,185.193.126.47,49004,10.0.4.18,445,TCP,(external),filesvr-03.finance.local,Block-Inbound-SMB-WAN
+2024-11-14 04:01:18,Deny,185.193.126.47,49005,10.0.0.10,53,TCP,(external),dns01.finance.local,Block-Inbound-DNS-TCP-WAN
+2024-11-14 14:21:48,Deny,10.0.4.32,49232,91.214.47.22,53,UDP,wkstn-221.finance.local,(external),Block-Outbound-DNS-Direct
+2024-11-14 18:00:00,Deny,84.142.89.12,49200,10.0.4.61,80,TCP,(external),kiosk-07.finance.local,Block-Inbound-HTTP-Direct
+2024-11-14 18:14:11,Deny,84.142.89.12,49201,10.0.4.61,8080,TCP,(external),kiosk-07.finance.local,Block-Inbound-Web-Alternate

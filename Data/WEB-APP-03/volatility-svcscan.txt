@@ -1,0 +1,31 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+Offset  Order   Start   PID     Service Name    Display Name    Service Type    Service State   Binary Path
+
+0xa18211b04020  4       SERVICE_AUTO_START      720     DcomLaunch      DCOM Server Process Launcher    SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k DcomLaunch -p
+0xa18211b04140  6       SERVICE_AUTO_START      748     RpcSs   Remote Procedure Call (RPC)     SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k RpcSs -p
+0xa18211b04260  10      SERVICE_AUTO_START      604     SamSs   Security Accounts Manager       SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\lsass.exe
+0xa18211b04380  14      SERVICE_AUTO_START      800     EventLog        Windows Event Log       SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p
+0xa18211b044a0  18      SERVICE_AUTO_START      856     LanmanServer    Server  SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\System32\svchost.exe -k netsvcs
+0xa18211b045c0  22      SERVICE_AUTO_START      904     Netman  Network Connections     SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p
+0xa18211b046e0  26      SERVICE_AUTO_START      944     Schedule        Task Scheduler  SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule
+0xa18211b04800  30      SERVICE_AUTO_START      988     W32Time Windows Time     SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k LocalService -p -s W32Time
+0xa18211b04920  34      SERVICE_AUTO_START      1024    LSM     Local Session Manager   SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k DcomLaunch
+0xa18211b04a40  38      SERVICE_AUTO_START      1080    ProfSvc User Profile Service    SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k netsvcs -p -s ProfSvc
+0xa18211b04b60  42      SERVICE_AUTO_START      1142    Dnscache        DNS Client      SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k NetworkService
+0xa18211b04c80  46      SERVICE_AUTO_START      1196    WdiSystemHost   Diagnostic System Host  SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k LocalSystemNetworkRestricted -p -s WdiSystemHost
+0xa18211b04da0  50      SERVICE_AUTO_START      1448    TermService     Remote Desktop Services SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\System32\svchost.exe -k NetworkService
+0xa18211b04ec0  54      SERVICE_AUTO_START      1496    Spooler Print Spooler   SERVICE_WIN32_OWN_PROCESS       SERVICE_RUNNING C:\Windows\System32\spoolsv.exe
+0xa18211b04fe0  58      SERVICE_AUTO_START      2780    W3SVC   World Wide Web Publishing Service       SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\system32\svchost.exe -k iissvcs
+0xa18211b05100  60      SERVICE_AUTO_START      2712    WAS     Windows Process Activation Service      SERVICE_WIN32_OWN_PROCESS       SERVICE_RUNNING C:\Windows\System32\inetsrv\WAS.exe
+0xa18211b05220  62      SERVICE_AUTO_START      1604    WinRM   Windows Remote Management (WS-Management)       SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\System32\svchost.exe -k NetworkService -p -s WinRM
+0xa18211b05340  66      SERVICE_AUTO_START      1696    WinDefend       Windows Defender Service        SERVICE_WIN32_OWN_PROCESS       SERVICE_RUNNING "C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MsMpEng.exe"
+0xa18211b05460  70      SERVICE_AUTO_START      2380    WSearch Windows Search  SERVICE_WIN32_OWN_PROCESS       SERVICE_RUNNING C:\Windows\System32\SearchIndexer.exe /Embedding
+0xa18211b05580  74      SERVICE_AUTO_START      2452    WaaSMedicSvc    Windows Update Medic Service    SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING "C:\Windows\System32\WaaSMedicAgent.exe"
+0xa18211b056a0  78      SERVICE_DEMAND_START    2644    MSDTC   Distributed Transaction Coordinator     SERVICE_WIN32_OWN_PROCESS       SERVICE_RUNNING C:\Windows\System32\msdtc.exe
+0xa18211b057c0  82      SERVICE_DEMAND_START    -       BITS    Background Intelligent Transfer Service SERVICE_WIN32_SHARE_PROCESS     SERVICE_STOPPED C:\Windows\System32\svchost.exe -k netsvcs -p -s BITS
+0xa18211b058e0  86      SERVICE_DEMAND_START    -       wuauserv        Windows Update  SERVICE_WIN32_SHARE_PROCESS     SERVICE_STOPPED C:\Windows\system32\svchost.exe -k netsvcs -p -s wuauserv
+0xa18211b05a00  88      SERVICE_DEMAND_START    -       WindowsHealthCollector  Windows Health Collector Service        SERVICE_WIN32_OWN_PROCESS       SERVICE_STOPPED C:\Windows\Temp\whcs.exe
+0xa18211b05b20  92      SERVICE_AUTO_START      3408    CDPSvc  Connected Devices Platform Service      SERVICE_WIN32_SHARE_PROCESS     SERVICE_RUNNING C:\Windows\System32\svchost.exe -k LocalService -p -s CDPSvc
+0xa18211b05c40  96      SERVICE_DEMAND_START    -       RemoteRegistry  Remote Registry SERVICE_WIN32_SHARE_PROCESS     SERVICE_STOPPED C:\Windows\system32\svchost.exe -k localService -p -s RemoteRegistry

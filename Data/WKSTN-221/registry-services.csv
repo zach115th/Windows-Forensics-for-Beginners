@@ -1,0 +1,21 @@
+ServiceName,DisplayName,ImagePath,StartType,Type,LastWriteTime,Description
+W32Time,Windows Time,C:\Windows\system32\svchost.exe -k LocalService -p,Manual,Win32_OwnProcess,2024-09-12 09:21:14.5000000,Maintains date and time synchronization
+WinDefend,Microsoft Defender Antivirus Service,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.2410.0-0\MsMpEng.exe""",Automatic,Win32_OwnProcess,2024-11-14 03:02:11.0000000,Helps protect users from malware
+ClickToRunSvc,Microsoft Office Click-to-Run Service,"""C:\Program Files\Common Files\Microsoft Shared\ClickToRun\OfficeClickToRun.exe""",Automatic,Win32_OwnProcess,2024-09-19 14:11:09.0000000,Office Click-to-Run
+Spooler,Print Spooler,C:\Windows\System32\spoolsv.exe,Automatic,Win32_OwnProcess,2024-09-12 09:21:14.5000000,Manages print jobs
+WSearch,Windows Search,"""C:\Windows\system32\SearchIndexer.exe"" /Embedding",Automatic_Delayed,Win32_OwnProcess,2024-09-12 09:21:14.5000000,Provides content indexing
+BITS,Background Intelligent Transfer Service,C:\Windows\System32\svchost.exe -k netsvcs -p,Manual,Win32_ShareProcess,2024-09-12 09:21:14.5000000,Transfers files in the background
+wuauserv,Windows Update,C:\Windows\system32\svchost.exe -k netsvcs -p,Manual,Win32_ShareProcess,2024-09-12 09:21:14.5000000,Enables detection download install of updates
+LanmanServer,Server,C:\Windows\System32\svchost.exe -k netsvcs -p,Automatic,Win32_ShareProcess,2024-09-12 09:21:14.5000000,Supports file print and named-pipe sharing
+LanmanWorkstation,Workstation,C:\Windows\System32\svchost.exe -k NetworkService -p,Automatic,Win32_ShareProcess,2024-09-12 09:21:14.5000000,Creates and maintains client network connections
+Dnscache,DNS Client,C:\Windows\System32\svchost.exe -k NetworkService -p,Automatic,Win32_ShareProcess,2024-09-12 09:21:14.5000000,Caches DNS names and registers
+EventLog,Windows Event Log,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p,Automatic,Win32_ShareProcess,2024-09-12 09:21:14.5000000,Manages events and event logs
+RpcSs,Remote Procedure Call,C:\Windows\system32\svchost.exe -k rpcss -p,Automatic,Win32_ShareProcess,2024-09-12 09:21:14.5000000,RPC subsystem
+TermService,Remote Desktop Services,C:\Windows\System32\svchost.exe -k NetworkService,Manual,Win32_ShareProcess,2024-09-12 09:21:14.5000000,Allows users to connect interactively
+UserManager,User Manager,C:\Windows\System32\svchost.exe -k netsvcs -p,Automatic,Win32_ShareProcess,2024-09-12 09:21:14.5000000,Provides applications with access to user state
+mpsdrv,Windows Firewall Authorization Driver,C:\Windows\System32\drivers\mpsdrv.sys,Manual,Kernel,2024-09-12 09:21:14.5000000,Windows Firewall driver
+edgeupdate,Microsoft Edge Update Service,"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /svc",Automatic_Delayed,Win32_OwnProcess,2024-09-22 11:14:00.0000000,Keeps Edge up to date
+edgeupdatem,Microsoft Edge Update Service (m),"""C:\Program Files (x86)\Microsoft\EdgeUpdate\MicrosoftEdgeUpdate.exe"" /medsvc",Manual,Win32_OwnProcess,2024-09-22 11:14:00.0000000,Edge update worker service
+SgrmBroker,System Guard Runtime Monitor Broker,"""C:\Windows\system32\SgrmBroker.exe""",Automatic,Win32_OwnProcess,2024-09-12 09:21:14.5000000,System integrity monitoring
+SecurityHealthService,Windows Security Service,C:\Windows\system32\SecurityHealthService.exe,Manual,Win32_OwnProcess,2024-09-12 09:21:14.5000000,Handles all unified security service notifications
+npcap,Npcap Packet Driver,\??\C:\Windows\System32\drivers\npcap.sys,Demand,KernelDriver,2024-11-14 02:14:18.0000000,User-installed packet capture driver — recently installed

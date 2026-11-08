@@ -1,0 +1,46 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+PID     Process Base    Size    Name    Path    LoadTime        File output
+
+2860    w3wp.exe        0x7ff7d8c70000  0x14000 w3wp.exe        c:\windows\system32\inetsrv\w3wp.exe    2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b9a0000  0x1f5000        ntdll.dll       C:\Windows\SYSTEM32\ntdll.dll   2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b6f0000  0xb1000 KERNEL32.DLL    C:\Windows\System32\KERNEL32.DLL        2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd99220000  0x21d000        KERNELBASE.dll  C:\Windows\System32\KERNELBASE.dll      2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b1a0000  0x1f000 IISUTIL.dll     C:\Windows\System32\inetsrv\IISUTIL.dll 2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9aa30000  0x88000 ADVAPI32.dll    C:\Windows\System32\ADVAPI32.dll        2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9af10000  0xa6000 msvcrt.dll      C:\Windows\System32\msvcrt.dll  2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b220000  0x18000 sechost.dll     C:\Windows\System32\sechost.dll 2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b2c0000  0x130000        RPCRT4.dll      C:\Windows\System32\RPCRT4.dll  2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b6b0000  0x29000 IMM32.dll       C:\Windows\System32\IMM32.dll   2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd97800000  0x4d000 nativerd.dll    C:\Windows\System32\inetsrv\nativerd.dll        2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9aae0000  0x16e000        USER32.dll      C:\Windows\System32\USER32.dll  2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b900000  0x42000 win32u.dll      C:\Windows\System32\win32u.dll  2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b250000  0x6a000 GDI32.dll       C:\Windows\System32\GDI32.dll   2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b780000  0x1bc000        gdi32full.dll   C:\Windows\System32\gdi32full.dll       2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b950000  0x4d000 msvcp_win.dll   C:\Windows\System32\msvcp_win.dll       2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd9b860000  0x99000 ucrtbase.dll    C:\Windows\System32\ucrtbase.dll        2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd97600000  0x1d000 webengine4.dll  C:\Windows\System32\inetsrv\webengine4.dll      2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd97500000  0xc6000 webengine.dll   C:\Windows\System32\inetsrv\webengine.dll       2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd97400000  0xa1000 iiscore.dll     C:\Windows\System32\inetsrv\iiscore.dll 2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd97300000  0x9a000 w3tp.dll        C:\Windows\System32\inetsrv\w3tp.dll    2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd97200000  0x65000 w3wphost.dll    C:\Windows\System32\inetsrv\w3wphost.dll        2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd97100000  0x5b000 w3dt.dll        C:\Windows\System32\inetsrv\w3dt.dll    2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd97000000  0x4a000 wbhst_pm.dll    C:\Windows\System32\inetsrv\wbhst_pm.dll        2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd95f00000  0x52000 OLEAUT32.dll    C:\Windows\System32\OLEAUT32.dll        2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd95d00000  0x1ad000        ole32.dll       C:\Windows\System32\ole32.dll   2024-11-21 09:00:14.000000      Disabled
+2860    w3wp.exe        0x7ffd95c00000  0x32000 combase.dll     C:\Windows\System32\combase.dll 2024-11-21 09:00:15.000000      Disabled
+2860    w3wp.exe        0x7ffd95a00000  0x123000        msvcr120_clr0400.dll    C:\Windows\Microsoft.NET\Framework64\v4.0.30319\msvcr120_clr0400.dll    2024-11-21 09:00:15.000000      Disabled
+2860    w3wp.exe        0x7ffd94600000  0x1456000       clr.dll C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clr.dll 2024-11-21 09:00:15.000000      Disabled
+2860    w3wp.exe        0x7ffd93a00000  0xb18000        mscoreei.dll    C:\Windows\System32\mscoreei.dll        2024-11-21 09:00:15.000000      Disabled
+2860    w3wp.exe        0x7ffd93800000  0x80000 mscoree.dll     C:\Windows\System32\mscoree.dll 2024-11-21 09:00:15.000000      Disabled
+2860    w3wp.exe        0x7ffd93600000  0x1c5000        clrjit.dll      C:\Windows\Microsoft.NET\Framework64\v4.0.30319\clrjit.dll      2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x7ffd92800000  0x21000 cryptbase.dll   C:\Windows\System32\cryptbase.dll       2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x7ffd92600000  0x9d000 bcryptprimitives.dll    C:\Windows\System32\bcryptprimitives.dll        2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x7ffd92400000  0x14000 wldp.dll        C:\Windows\System32\wldp.dll    2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x7ffd92200000  0x66000 SHLWAPI.dll     C:\Windows\System32\SHLWAPI.dll 2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x7ffd92000000  0x1c000 profapi.dll     C:\Windows\System32\profapi.dll 2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x7ffd91e00000  0x6b000 IPHLPAPI.dll    C:\Windows\System32\IPHLPAPI.dll        2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x7ffd91c00000  0x18000 NETUTILS.dll    C:\Windows\System32\NETUTILS.dll        2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x7ffd91a00000  0x88000 WS2_32.dll      C:\Windows\System32\WS2_32.dll  2024-11-21 09:00:16.000000      Disabled
+2860    w3wp.exe        0x000001b39c2a0000      0x18000 cmdshell.dll    C:\Windows\Temp\cmdshell.dll    2024-11-21 10:19:14.000000      Disabled

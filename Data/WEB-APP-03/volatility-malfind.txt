@@ -1,0 +1,62 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+PID     Process Start VPN       End VPN Tag     Protection      CommitCharge    PrivateMemory   File output     Hexdump Disasm
+
+3704    powershell.exe  0x1f4a0000      0x1f5a0fff      VadS    PAGE_EXECUTE_READWRITE  256     1       Disabled
+4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00    MZ..............
+b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00    ........@.......
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+00 00 00 00 00 00 00 00 00 00 00 00 e8 00 00 00    ................
+0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68    ........!..L.!Th
+69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f    is program canno
+74 20 62 65 20 72 75 6e 20 69 6e 20 44 4f 53 20    t be run in DOS
+6d 6f 64 65 2e 0d 0d 0a 24 00 00 00 00 00 00 00    mode....$.......
+
+0x1f4a0000:     dec     ebp
+0x1f4a0001:     pop     edx
+0x1f4a0002:     nop
+0x1f4a0003:     add     byte ptr [rbx], al
+0x1f4a0005:     add     byte ptr [rax], al
+0x1f4a0007:     add     byte ptr [rax+rax], al
+0x1f4a000a:     add     byte ptr [rax], al
+
+PID     Process Start VPN       End VPN Tag     Protection      CommitCharge    PrivateMemory   File output     Hexdump Disasm
+
+1142    svchost.exe     0x2b1c0000      0x2b1d3fff      VadS    PAGE_EXECUTE_READWRITE  20      1       Disabled
+4d 5a 41 52 55 48 89 e5 48 81 ec 20 00 00 00 48    MZARUH..H.. ...H
+8d 1d ef ff ff ff 48 81 c3 71 02 00 00 ff d3 48    ......H..q.....H
+89 c1 48 8d 15 0a 02 00 00 e8 60 00 00 00 31 c9    ..H.......`...1.
+4d 31 c9 4d 8d 41 01 48 8d 15 13 02 00 00 ff d0    M1.M.A.H........
+48 89 c3 48 81 ec 30 00 00 00 48 8d 15 25 02 00    H..H..0...H..%..
+00 ff d3 48 89 c3 48 81 ec 30 00 00 00 48 8d 15    ...H..H..0...H..
+35 02 00 00 ff d3 48 89 c1 48 8d 15 41 02 00 00    5.....H..H..A...
+ff d0 48 89 c3 48 81 ec 30 00 00 00 48 8d 15 51    ..H..H..0...H..Q
+
+0x2b1c0000:     dec     ebp
+0x2b1c0001:     pop     edx
+0x2b1c0002:     inc     ecx
+0x2b1c0003:     push    rdx
+0x2b1c0004:     push    rbp
+0x2b1c0005:     mov     rbp, rsp
+0x2b1c0008:     sub     rsp, 0x20
+0x2b1c000c:     lea     rbx, [rip - 0x11]
+
+PID     Process Start VPN       End VPN Tag     Protection      CommitCharge    PrivateMemory   File output     Hexdump Disasm
+
+2860    w3wp.exe        0x000001b3a4ee0000      0x000001b3a4ef3fff      VadS    PAGE_EXECUTE_READWRITE  20      1       Disabled
+4d 5a 90 00 03 00 00 00 04 00 00 00 ff ff 00 00    MZ..............
+b8 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00    ........@.......
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00    ................
+00 00 00 00 00 00 00 00 00 00 00 00 f8 00 00 00    ................
+0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68    ........!..L.!Th
+69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f    is program canno
+74 20 62 65 20 72 75 6e 20 69 6e 20 44 4f 53 20    t be run in DOS
+6d 6f 64 65 2e 0d 0d 0a 24 00 00 00 00 00 00 00    mode....$.......
+
+0x1b3a4ee0000:  dec     ebp
+0x1b3a4ee0001:  pop     edx
+0x1b3a4ee0002:  nop
+0x1b3a4ee0003:  add     byte ptr [rbx], al
+0x1b3a4ee0005:  add     byte ptr [rax], al
+0x1b3a4ee0007:  add     byte ptr [rax+rax], al

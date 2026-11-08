@@ -1,0 +1,63 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime        File output
+
+4       0       System  0xa1820e07d040  148     -       N/A     False   2024-11-21 06:30:02.000000      N/A     Disabled
+72      4       Registry        0xa1820e0a3080  4       -       N/A     False   2024-11-21 06:30:02.000000      N/A     Disabled
+348     4       smss.exe        0xa1820f6c0040  2       -       N/A     False   2024-11-21 06:30:02.000000      N/A     Disabled
+436     428     csrss.exe       0xa18210f47140  10      -       0       False   2024-11-21 06:30:08.000000      N/A     Disabled
+524     516     wininit.exe     0xa18210f96080  1       -       0       False   2024-11-21 06:30:09.000000      N/A     Disabled
+532     516     csrss.exe       0xa18210fa6080  11      -       1       False   2024-11-21 06:30:09.000000      N/A     Disabled
+596     524     services.exe    0xa182111ad080  6       -       0       False   2024-11-21 06:30:09.000000      N/A     Disabled
+604     524     lsass.exe       0xa182111c8080  9       -       0       False   2024-11-21 06:30:09.000000      N/A     Disabled
+640     524     winlogon.exe    0xa18211214080  3       -       1       False   2024-11-21 06:30:09.000000      N/A     Disabled
+672     524     fontdrvhost.exe 0xa1821121c080  5       -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+720     596     svchost.exe     0xa1821126b080  18      -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+748     596     svchost.exe     0xa18211278080  6       -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+800     596     svchost.exe     0xa182112a4080  20      -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+856     596     svchost.exe     0xa182112b1080  9       -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+904     596     svchost.exe     0xa182112c1080  10      -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+944     596     svchost.exe     0xa182112d2080  19      -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+988     596     svchost.exe     0xa182112e0080  8       -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+1024    596     svchost.exe     0xa182112ee080  15      -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+1080    596     svchost.exe     0xa18211314080  7       -       0       False   2024-11-21 06:30:10.000000      N/A     Disabled
+1142    596     svchost.exe     0xa18211327080  11      -       0       False   2024-11-21 06:30:11.000000      N/A     Disabled
+1196    596     svchost.exe     0xa18211342080  6       -       0       False   2024-11-21 06:30:11.000000      N/A     Disabled
+1244    596     svchost.exe     0xa18211358080  12      -       0       False   2024-11-21 06:30:11.000000      N/A     Disabled
+1308    596     svchost.exe     0xa1821136f080  9       -       0       False   2024-11-21 06:30:11.000000      N/A     Disabled
+1372    596     svchost.exe     0xa18211380080  4       -       0       False   2024-11-21 06:30:11.000000      N/A     Disabled
+1448    596     svchost.exe     0xa182113a1080  13      -       0       False   2024-11-21 06:30:11.000000      N/A     Disabled
+1496    596     spoolsv.exe     0xa182113b8080  10      -       0       False   2024-11-21 06:30:11.000000      N/A     Disabled
+1572    596     svchost.exe     0xa182113d4080  7       -       0       False   2024-11-21 06:30:12.000000      N/A     Disabled
+1604    596     svchost.exe     0xa182113e2080  6       -       0       False   2024-11-21 06:30:12.000000      N/A     Disabled
+1648    596     svchost.exe     0xa182113f1080  5       -       0       False   2024-11-21 06:30:12.000000      N/A     Disabled
+1696    596     MsMpEng.exe     0xa182113ff080  18      -       0       False   2024-11-21 06:30:12.000000      N/A     Disabled
+1752    596     svchost.exe     0xa18211420080  6       -       0       False   2024-11-21 06:30:12.000000      N/A     Disabled
+1812    596     svchost.exe     0xa1821143d080  10      -       0       False   2024-11-21 06:30:12.000000      N/A     Disabled
+1884    596     svchost.exe     0xa1821145e080  4       -       0       False   2024-11-21 06:30:12.000000      N/A     Disabled
+1948    596     WmiPrvSE.exe    0xa18211479080  9       -       0       False   2024-11-21 06:30:13.000000      N/A     Disabled
+2004    596     svchost.exe     0xa18211492080  8       -       0       False   2024-11-21 06:30:13.000000      N/A     Disabled
+2068    596     dllhost.exe     0xa182114a8080  6       -       0       False   2024-11-21 06:30:13.000000      N/A     Disabled
+2148    640     dwm.exe 0xa182114c2080  10      -       1       False   2024-11-21 06:30:13.000000      N/A     Disabled
+2244    524     LogonUI.exe     0xa182114e8080  6       -       1       False   2024-11-21 06:30:13.000000      N/A     Disabled
+2316    596     svchost.exe     0xa18211506080  5       -       0       False   2024-11-21 06:30:14.000000      N/A     Disabled
+2380    596     SearchIndexer.exe       0xa1821151f080  14      -       0       False   2024-11-21 06:30:14.000000      N/A     Disabled
+2452    596     WaaSMedicAgent.exe      0xa1821153d080  4       -       0       False   2024-11-21 06:30:14.000000      N/A     Disabled
+2516    596     svchost.exe     0xa18211556080  3       -       0       False   2024-11-21 06:30:14.000000      N/A     Disabled
+2588    944     taskhostw.exe   0xa18211572080  9       -       1       False   2024-11-21 06:30:14.000000      N/A     Disabled
+2644    596     msdtc.exe       0xa18211588080  11      -       0       False   2024-11-21 06:30:14.000000      N/A     Disabled
+2712    596     WAS.exe 0xa1821159b080  7       -       0       False   2024-11-21 06:30:14.000000      N/A     Disabled
+2780    596     svchost.exe     0xa182115b1080  6       -       0       False   2024-11-21 06:30:14.000000      N/A     Disabled
+2860    2712    w3wp.exe        0xa182115c8080  28      -       0       False   2024-11-21 09:00:14.000000      N/A     Disabled
+3024    596     conhost.exe     0xa18211608080  4       -       0       False   2024-11-21 09:00:14.000000      N/A     Disabled
+3192    596     svchost.exe     0xa18211641080  5       -       0       False   2024-11-21 09:14:33.000000      N/A     Disabled
+3408    596     svchost.exe     0xa18211687080  4       -       0       False   2024-11-21 09:42:01.000000      N/A     Disabled
+3580    2860    cmd.exe 0xa182116c4080  1       -       0       False   2024-11-21 10:18:42.000000      N/A     Disabled
+3612    3580    conhost.exe     0xa182116d2080  3       -       0       False   2024-11-21 10:18:42.000000      N/A     Disabled
+3704    2860    powershell.exe  0xa182116f1080  9       -       0       False   2024-11-21 10:18:42.000000      N/A     Disabled
+3756    596     whcs.exe        0xa18211712080  4       -       0       False   2024-11-21 10:21:30.000000      2024-11-21 10:23:11.000000      Disabled
+3892    2380    SearchProtocolHost.exe  0xa18211735080  6       -       0       False   2024-11-21 10:31:18.000000      N/A     Disabled
+3948    2380    SearchFilterHost.exe    0xa18211748080  4       -       0       False   2024-11-21 10:31:18.000000      N/A     Disabled
+4012    596     WmiPrvSE.exe    0xa18211760080  7       -       0       False   2024-11-21 10:38:02.000000      N/A     Disabled
+4088    596     winpmem.exe     0xa18211782080  3       -       0       False   2024-11-21 10:42:08.000000      N/A     Disabled

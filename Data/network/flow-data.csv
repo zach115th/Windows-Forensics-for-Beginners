@@ -1,0 +1,34 @@
+FlowStart,FlowEnd,SourceIP,SourcePort,DestIP,DestPort,Protocol,BytesSent,BytesReceived,PacketsSent,PacketsReceived,SourceHost,DestHost,Notes
+2024-11-12 08:42:11,2024-11-12 08:42:42,10.0.4.27,49150,40.126.32.74,443,TCP,4218,18421,12,42,hr-ws17.finance.local,login.microsoftonline.com,Corporate sign-in (background)
+2024-11-12 09:32:11,2024-11-12 09:34:42,10.0.4.27,49152,52.96.128.45,443,TCP,18421,421842,42,421,hr-ws17.finance.local,outlook.office365.com,Corporate Outlook background
+2024-11-12 17:46:02,2024-11-12 17:47:18,10.0.4.27,52201,40.108.232.91,443,TCP,1924711,18421,1421,184,hr-ws17.finance.local,onedrive.live.com,OneDrive Personal upload window starts (Q4_Customer_Pricing.xlsx -> personal account)
+2024-11-12 17:47:18,2024-11-12 17:48:30,10.0.4.27,52202,40.84.180.42,443,TCP,4218,18421,12,42,hr-ws17.finance.local,login.live.com,Consumer Microsoft sign-in refresh
+2024-11-12 17:48:41,2024-11-12 17:49:18,10.0.4.27,52203,40.108.232.91,443,TCP,1311840,11421,942,142,hr-ws17.finance.local,onedrive.live.com,OneDrive Personal upload (Pricing_Strategy_Confidential.docx -> personal account)
+2024-11-12 17:51:04,2024-11-12 17:53:00,10.0.4.27,52210,40.84.180.18,443,TCP,18421,184221,42,184,hr-ws17.finance.local,outlook.live.com,Personal webmail navigation (Lab 11 probable channel)
+2024-11-12 17:55:18,2024-11-12 17:55:32,10.0.4.27,49228,52.96.128.45,443,TCP,2184,18421,8,21,hr-ws17.finance.local,outlook.office365.com,Corporate Outlook tail
+2024-11-14 02:14:08,2024-11-14 02:14:48,10.0.4.42,49050,10.0.4.32,445,TCP,8421,184221,18,184,backup-sched.finance.local,wkstn-221.finance.local,Scheduled backup (legitimate)
+2024-11-14 04:00:00,2024-11-14 04:00:42,185.193.126.47,49001,10.0.4.32,445,TCP,4218,2841,28,22,(external),wkstn-221.finance.local,External IP scan against SMB; session established
+2024-11-14 04:00:11,2024-11-14 04:00:20,185.193.126.47,49002,10.0.4.45,445,TCP,156,0,3,0,(external),fin-ws23.finance.local,"Same scanner; SYN only, no reply (denied)"
+2024-11-14 04:00:24,2024-11-14 04:00:33,185.193.126.47,49003,10.0.4.51,445,TCP,156,0,3,0,(external),hr-lt12.finance.local,"Same scanner; SYN only, no reply (denied)"
+2024-11-14 09:00:00,2024-11-14 09:48:00,10.0.4.32,49213,52.96.128.45,443,TCP,184221,1842184,184,1842,wkstn-221.finance.local,outlook.office365.com,Long Outlook session
+2024-11-14 12:00:00,2024-11-14 12:00:24,10.0.4.32,49211,13.107.4.50,443,TCP,4218,18421,12,42,wkstn-221.finance.local,update.microsoft.com,Update check
+2024-11-14 12:32:04,2024-11-14 12:32:48,10.0.4.32,49210,13.107.42.14,443,TCP,8421,184221,18,184,wkstn-221.finance.local,events.data.microsoft.com,Telemetry
+2024-11-14 14:00:00,2024-11-14 14:00:48,10.0.4.32,49214,52.96.128.45,443,TCP,4218,184221,12,184,wkstn-221.finance.local,outlook.office365.com,Office 365 mail flow
+2024-11-14 14:00:11,2024-11-14 14:01:32,10.0.4.32,49215,40.126.32.74,443,TCP,8421,128421,18,142,wkstn-221.finance.local,login.microsoftonline.com,M365 auth
+2024-11-14 14:00:14,2024-11-14 14:01:04,10.0.4.45,49101,13.107.6.171,443,TCP,8421,184221,18,184,fin-ws23.finance.local,microsoft.com,Background
+2024-11-14 14:00:18,2024-11-14 14:00:28,10.0.4.51,49102,52.96.128.45,443,TCP,2184,18421,8,21,hr-lt12.finance.local,outlook.office365.com,Background
+2024-11-14 14:18:14,2024-11-14 14:18:42,10.0.4.61,49210,40.126.32.74,443,TCP,8421,128421,18,142,kiosk-07.finance.local,login.microsoftonline.com,Background
+2024-11-14 14:18:55,2024-11-14 14:19:05,10.0.4.32,49217,52.96.128.45,443,TCP,2184,18421,8,21,wkstn-221.finance.local,outlook.office365.com,Background mail
+2024-11-14 14:19:38,2024-11-14 14:19:38,10.0.4.32,49225,10.0.0.10,53,UDP,84,184,1,1,wkstn-221.finance.local,dns01.finance.local,Internal DNS
+2024-11-14 14:19:38,2024-11-14 14:19:38,10.0.4.32,49224,8.8.8.8,53,UDP,84,184,1,1,wkstn-221.finance.local,(public DNS),DNS query
+2024-11-14 14:19:42,2024-11-14 14:19:48,10.0.4.32,52914,91.214.47.22,443,TCP,1847,184221,12,142,wkstn-221.finance.local,(unknown),First observation of suspicious destination
+2024-11-14 14:21:14,2024-11-14 14:21:18,10.0.4.32,49230,224.0.0.1,5355,UDP,84,0,1,0,wkstn-221.finance.local,(multicast),LLMNR
+2024-11-14 14:21:48,2024-11-14 14:21:48,10.0.4.32,49232,91.214.47.22,53,UDP,0,0,0,0,wkstn-221.finance.local,(unknown),Failed UDP/53 probe
+2024-11-14 14:21:48,2024-11-14 14:22:14,10.0.4.32,52915,91.214.47.22,443,TCP,4218,18421,18,42,wkstn-221.finance.local,(unknown),Beacon-like
+2024-11-14 14:21:55,2024-11-14 14:22:44,10.0.4.32,52916,91.214.47.22,443,TCP,184221,2415891,142,1842,wkstn-221.finance.local,(unknown),Large outbound - possible exfil
+2024-11-14 14:22:14,2024-11-14 14:22:48,10.0.4.32,52917,91.214.47.22,443,TCP,18421,42184,42,84,wkstn-221.finance.local,(unknown),Beacon continuation
+2024-11-14 14:30:00,2024-11-14 14:30:14,10.0.4.32,49226,52.96.128.45,443,TCP,4218,18421,12,42,wkstn-221.finance.local,outlook.office365.com,Background
+2024-11-14 14:31:05,2024-11-14 14:33:14,10.0.4.17,49220,10.0.4.32,445,TCP,11421,4218421,42,1842,(unknown internal),wkstn-221.finance.local,Inbound SMB to WKSTN-221
+2024-11-14 14:33:18,2024-11-14 14:33:42,10.0.4.32,49221,10.0.4.18,445,TCP,2184,18421,18,42,wkstn-221.finance.local,filesvr-03.finance.local,SMB to file server
+2024-11-14 14:33:42,2024-11-14 14:35:00,10.0.4.32,49222,10.0.4.18,445,TCP,184221,8421,184,21,wkstn-221.finance.local,filesvr-03.finance.local,SMB enumeration
+2024-11-14 14:35:00,2024-11-14 14:36:00,10.0.4.32,52918,91.214.47.22,443,TCP,8421,11421,42,42,wkstn-221.finance.local,(unknown),Final beacon before quiet

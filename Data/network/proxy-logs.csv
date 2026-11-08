@@ -1,0 +1,23 @@
+Timestamp,ClientIP,Username,Method,URL,ResponseCode,BytesSent,BytesReceived,UserAgent,ContentType,ContentCategory
+2024-11-12 09:32:00,10.0.4.32,FINANCE\payroll-admin,GET,https://outlook.office365.com/owa/,200,1842,184221,Mozilla/5.0 ... Edg/118.0,text/html,Business / Email
+2024-11-12 17:46:02,10.0.4.27,FINANCE\hr-user,POST,https://onedrive.live.com/personal/hr_user_personal_outlook_com/_api/v2.0/me/drive/special/approot/children,200,4218,18421,Microsoft SkyDriveSync/24.043.0303.0001 ship; Windows NT 10.0 (19045),application/json,Personal Cloud Storage
+2024-11-12 17:46:42,10.0.4.27,FINANCE\hr-user,PUT,https://onedrive.live.com/personal/hr_user_personal_outlook_com/_api/v2.0/me/drive/items/01ABCDEF234567890ABCDEF1/content,201,1842184,4218,Microsoft SkyDriveSync/24.043.0303.0001 ship; Windows NT 10.0 (19045),application/octet-stream,Personal Cloud Storage
+2024-11-12 17:48:41,10.0.4.27,FINANCE\hr-user,PUT,https://onedrive.live.com/personal/hr_user_personal_outlook_com/_api/v2.0/me/drive/items/01ABCDEF234567890ABCDEF2/content,201,1248421,4218,Microsoft SkyDriveSync/24.043.0303.0001 ship; Windows NT 10.0 (19045),application/octet-stream,Personal Cloud Storage
+2024-11-12 17:51:04,10.0.4.27,FINANCE\hr-user,GET,https://outlook.live.com/mail/0/,200,1842,421842,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76,text/html,Personal Webmail
+2024-11-13 14:00:00,10.0.4.32,FINANCE\payroll-admin,GET,https://outlook.office365.com/api/v2.0/me/messages,200,2184,184221,Microsoft Office/16.0,application/json,Business / Email
+2024-11-14 09:00:00,10.0.4.32,FINANCE\payroll-admin,GET,https://outlook.office365.com/api/v2.0/me/messages,200,2184,184221,Microsoft Office/16.0,application/json,Business / Email
+2024-11-14 12:00:14,10.0.4.32,FINANCE\payroll-admin,GET,https://update.microsoft.com/v6/ClientWebService/client.asmx,200,4218,18421,Windows-Update-Agent,text/xml,Microsoft Update
+2024-11-14 12:32:04,10.0.4.32,FINANCE\payroll-admin,POST,https://events.data.microsoft.com/Collector/3.0/,204,8421,128,Microsoft Edge WebView2,application/json,Telemetry
+2024-11-14 13:00:14,10.0.4.45,FINANCE\j.smith,GET,https://login.microsoftonline.com/oauth2/authorize,302,4218,11421,Mozilla/5.0 ... Edg/118.0,text/html,Microsoft Auth
+2024-11-14 13:14:00,10.0.4.32,FINANCE\payroll-admin,GET,https://outlook.office365.com/api/v2.0/me/messages,200,2184,184221,Microsoft Office/16.0,application/json,Business / Email
+2024-11-14 14:00:00,10.0.4.51,FINANCE\hr-user,GET,https://outlook.office365.com/owa/,200,1842,128421,Mozilla/5.0 ... Edg/118.0,text/html,Business / Email
+2024-11-14 14:00:01,10.0.4.32,FINANCE\payroll-admin,GET,https://outlook.office365.com/owa/,200,1842,184221,Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76,text/html,Business / Email
+2024-11-14 14:00:14,10.0.4.32,FINANCE\payroll-admin,GET,https://outlook.office365.com/api/v2.0/me/messages,200,2184,418421,Microsoft Office/16.0,application/json,Business / Email
+2024-11-14 14:00:14,10.0.4.61,FINANCE\kiosk,GET,https://login.microsoftonline.com/,302,1142,4218,Mozilla/5.0 ... Edg/118.0,text/html,Microsoft Auth
+2024-11-14 14:00:42,10.0.4.45,FINANCE\j.smith,GET,https://www.microsoft.com/en-us/,200,1142,184221,Mozilla/5.0 (Windows NT 10.0; Win64; x64) Edg/118.0,text/html,Information Technology
+2024-11-14 14:18:14,10.0.4.61,FINANCE\kiosk,GET,https://www.bing.com/,200,1842,184221,Mozilla/5.0 ... Edg/118.0,text/html,Search Engine
+2024-11-14 14:19:42,10.0.4.32,FINANCE\payroll-admin,CONNECT,91.214.47.22:443,200,184,184,Microsoft .NET CLR 4.8 (Invoke-WebRequest),-,Uncategorized
+2024-11-14 14:21:48,10.0.4.32,FINANCE\payroll-admin,CONNECT,91.214.47.22:443,200,184,184,-,-,Uncategorized
+2024-11-14 14:21:55,10.0.4.32,FINANCE\payroll-admin,CONNECT,91.214.47.22:443,200,184,184,-,-,Uncategorized
+2024-11-14 14:22:14,10.0.4.32,FINANCE\payroll-admin,CONNECT,91.214.47.22:443,200,184,184,-,-,Uncategorized
+2024-11-14 14:35:00,10.0.4.32,FINANCE\payroll-admin,CONNECT,91.214.47.22:443,200,184,184,-,-,Uncategorized

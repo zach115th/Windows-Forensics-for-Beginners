@@ -1,0 +1,36 @@
+Volatility 3 Framework 2.5.2
+Progress:  100.00               PDB scanning finished
+
+PID     Process HandleValue     Type    GrantedAccess   Name
+
+3704    powershell.exe  0x4     Event   0x100003        -
+3704    powershell.exe  0x8     Event   0x100003        -
+3704    powershell.exe  0xc     File    0x100020        \Device\ConDrv
+3704    powershell.exe  0x10    File    0x12019f        \Device\ConDrv
+3704    powershell.exe  0x14    File    0x12019f        \Device\ConDrv
+3704    powershell.exe  0x18    File    0x12019f        \Device\ConDrv
+3704    powershell.exe  0x1c    Directory       0xf000f \KnownDlls
+3704    powershell.exe  0x20    Event   0x100003        -
+3704    powershell.exe  0x24    File    0x100020        \Device\HarddiskVolume2\Windows\System32
+3704    powershell.exe  0x28    Key     0x20019 \REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Nls\Sorting\Versions
+3704    powershell.exe  0x2c    Key     0x20019 \REGISTRY\MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options
+3704    powershell.exe  0x30    Mutant  0x1f0001        \Sessions\0\BaseNamedObjects\SM0:3704:120:WilStaging_02
+3704    powershell.exe  0x34    Semaphore       0x100003        -
+3704    powershell.exe  0x38    Thread  0x1fffff        powershell.exe(3704): 3708
+3704    powershell.exe  0x3c    File    0x120089        \Device\HarddiskVolume2\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+3704    powershell.exe  0x40    Key     0x20019 \REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Session Manager
+3704    powershell.exe  0x44    Section 0xf001f -
+3704    powershell.exe  0x48    Key     0x20019 \REGISTRY\MACHINE\SOFTWARE\Microsoft\Cryptography
+3704    powershell.exe  0x4c    Key     0x2001f \REGISTRY\USER\S-1-5-82-333494554-2578022967-3980805647-2472914605-1664574003\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings
+3704    powershell.exe  0x50    File    0x120089        \Device\HarddiskVolume2\Windows\Temp\cmdshell.dll
+3704    powershell.exe  0x54    File    0x12019f        \Device\NamedPipe\iisipm89af2c9b-5d7e-4f26-9b8a-6f9b3c9e7d24
+3704    powershell.exe  0x58    File    0x100001        \Device\Afd
+3704    powershell.exe  0x5c    File    0x12019f        \Device\NamedPipe\srvsvc
+3704    powershell.exe  0x60    File    0x12019f        \Device\NamedPipe\whcs_ctrl
+3704    powershell.exe  0x64    File    0x100020        \Device\HarddiskVolume2\Windows\Temp
+3704    powershell.exe  0x68    File    0x120116        \Device\HarddiskVolume2\Windows\Temp\whcs.exe
+3704    powershell.exe  0x6c    Key     0x20019 \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\Tcpip\Parameters
+3704    powershell.exe  0x70    Token   0x20008 -
+3704    powershell.exe  0x74    Process 0x1fffff        svchost.exe(1142)
+3704    powershell.exe  0x78    Thread  0x1fffff        svchost.exe(1142): 1146
+3704    powershell.exe  0x7c    Section 0xf001f -
