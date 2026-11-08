@@ -1,0 +1,69 @@
+FlowStart,FlowEnd,SourceIP,SourcePort,DestIP,DestPort,Protocol,BytesSent,BytesReceived,PacketsSent,PacketsReceived,OwningProcess,Notes
+2024-11-06 01:12:00,2024-11-06 02:00:00,10.0.6.15,50914,10.0.6.41,10002,TCP,214748364800,4118204,153391689,88412,veeamagent.exe,"Nightly backup job — legitimate, and far larger than the exfiltration. Volume alone is not the signal; destination is"
+2024-11-06 07:38:29,2024-11-06 07:44:34,10.0.6.15,57650,10.0.0.10,445,TCP,50484150,400017,36060,492,System,Routine file-server traffic
+2024-11-06 08:41:43,2024-11-06 08:53:22,10.0.6.15,55667,10.0.0.10,389,TCP,96567168,588649,68976,1751,System,Routine file-server traffic
+2024-11-06 10:32:27,2024-11-06 10:46:27,10.0.6.15,53287,10.0.6.41,5985,TCP,44144917,2372214,31532,1803,System,Routine file-server traffic
+2024-11-06 13:04:35,2024-11-06 13:08:43,10.0.6.15,56197,10.0.4.102,53,TCP,178424956,605424,127446,2703,System,Routine file-server traffic
+2024-11-06 13:47:04,2024-11-06 13:47:38,10.0.6.15,51469,10.0.0.10,5985,TCP,116065839,1163537,82904,2810,System,Routine file-server traffic
+2024-11-06 16:55:01,2024-11-06 17:07:26,10.0.6.15,51699,10.0.6.90,445,TCP,77182932,3134036,55130,123,System,Routine file-server traffic
+2024-11-07 01:12:00,2024-11-07 02:00:00,10.0.6.15,50914,10.0.6.41,10002,TCP,214748364800,4118204,153391689,88412,veeamagent.exe,"Nightly backup job — legitimate, and far larger than the exfiltration. Volume alone is not the signal; destination is"
+2024-11-07 08:26:49,2024-11-07 08:32:04,10.0.6.15,49769,10.0.0.10,445,TCP,133098066,2436743,95070,594,System,Routine file-server traffic
+2024-11-07 09:55:10,2024-11-07 10:05:29,10.0.6.15,53051,10.0.4.102,5985,TCP,10934029,2767503,7810,1181,System,Routine file-server traffic
+2024-11-07 10:17:21,2024-11-07 10:19:42,10.0.6.15,51226,10.0.0.10,445,TCP,104182652,2187824,74416,209,System,Routine file-server traffic
+2024-11-07 15:30:29,2024-11-07 15:36:30,10.0.6.15,52767,10.0.4.61,445,TCP,97680262,1140054,69771,1264,System,Routine file-server traffic
+2024-11-07 16:34:10,2024-11-07 16:44:01,10.0.6.15,50828,10.0.0.10,53,TCP,119589685,1744409,85421,1506,System,Routine file-server traffic
+2024-11-07 16:44:18,2024-11-07 16:54:39,10.0.6.15,52597,10.0.0.10,445,TCP,110530724,2167498,78950,1640,System,Routine file-server traffic
+2024-11-08 01:12:00,2024-11-08 02:00:00,10.0.6.15,50914,10.0.6.41,10002,TCP,214748364800,4118204,153391689,88412,veeamagent.exe,"Nightly backup job — legitimate, and far larger than the exfiltration. Volume alone is not the signal; destination is"
+2024-11-08 06:38:01,2024-11-08 06:46:04,10.0.6.15,58918,10.0.0.10,445,TCP,73217174,413576,52297,2986,System,Routine file-server traffic
+2024-11-08 13:08:00,2024-11-08 13:17:22,10.0.6.15,57309,10.0.0.10,445,TCP,33438602,1048336,23884,2262,System,Routine file-server traffic
+2024-11-08 14:53:35,2024-11-08 14:56:58,10.0.6.15,54644,10.0.6.90,445,TCP,139001757,225824,99286,1581,System,Routine file-server traffic
+2024-11-08 17:46:25,2024-11-08 18:00:11,10.0.6.15,59282,10.0.6.41,53,TCP,295716,175118,211,1293,System,Routine file-server traffic
+2024-11-08 18:20:59,2024-11-08 18:24:56,10.0.6.15,50998,10.0.4.61,445,TCP,179932907,2923635,128523,432,System,Routine file-server traffic
+2024-11-08 19:56:58,2024-11-08 19:58:42,10.0.6.15,50332,10.0.6.90,445,TCP,21901765,1742806,15644,1673,System,Routine file-server traffic
+2024-11-09 01:12:00,2024-11-09 02:00:00,10.0.6.15,50914,10.0.6.41,10002,TCP,214748364800,4118204,153391689,88412,veeamagent.exe,"Nightly backup job — legitimate, and far larger than the exfiltration. Volume alone is not the signal; destination is"
+2024-11-09 01:19:41,2024-11-09 01:24:18,10.0.2.28,50114,10.0.6.15,445,TCP,8412004,214882,6104,3211,System,PsExec service install and binary push
+2024-11-09 01:26:41,2024-11-09 03:11:20,10.0.2.28,51882,10.0.6.15,3389,TCP,7409220,59022600,11930,45208,svchost.exe (TermService),first interactive RDP session on ACCT-FS01
+2024-11-09 06:15:11,2024-11-09 06:26:42,10.0.6.15,53856,10.0.6.90,389,TCP,132976120,986568,94982,1932,System,Routine file-server traffic
+2024-11-09 11:37:18,2024-11-09 11:44:55,10.0.6.15,50869,10.0.4.61,445,TCP,117774600,3992367,84124,2686,System,Routine file-server traffic
+2024-11-09 12:29:43,2024-11-09 12:31:51,10.0.6.15,50756,10.0.4.102,5985,TCP,146407005,2454721,104576,1646,System,Routine file-server traffic
+2024-11-09 13:52:31,2024-11-09 13:57:26,10.0.6.15,52149,10.0.4.77,445,TCP,157324042,1434507,112374,1684,System,Routine file-server traffic
+2024-11-09 14:07:01,2024-11-09 14:10:18,10.0.6.15,55715,10.0.6.90,445,TCP,45003601,3583757,32145,2605,System,Routine file-server traffic
+2024-11-09 18:10:02,2024-11-09 18:14:52,10.0.6.15,50903,10.0.4.61,445,TCP,175510203,1532095,125364,887,System,Routine file-server traffic
+2024-11-10 01:12:00,2024-11-10 02:00:00,10.0.6.15,50914,10.0.6.41,10002,TCP,214748364800,4118204,153391689,88412,veeamagent.exe,"Nightly backup job — legitimate, and far larger than the exfiltration. Volume alone is not the signal; destination is"
+2024-11-10 08:26:18,2024-11-10 08:29:34,10.0.6.15,54901,10.0.0.10,5985,TCP,115025361,888581,82160,889,System,Routine file-server traffic
+2024-11-10 12:00:34,2024-11-10 12:10:07,10.0.6.15,49252,10.0.4.102,5985,TCP,104386547,3042511,74561,1401,System,Routine file-server traffic
+2024-11-10 13:19:41,2024-11-10 13:26:22,10.0.6.15,52006,10.0.6.90,53,TCP,81537065,2229616,58240,192,System,Routine file-server traffic
+2024-11-10 17:33:26,2024-11-10 17:35:46,10.0.6.15,58886,10.0.6.41,445,TCP,109523034,1228139,78230,1200,System,Routine file-server traffic
+2024-11-10 17:55:22,2024-11-10 18:07:35,10.0.6.15,55089,10.0.4.77,5985,TCP,106656501,1828282,76183,1484,System,Routine file-server traffic
+2024-11-10 19:41:02,2024-11-10 19:47:09,10.0.6.15,51511,10.0.0.10,389,TCP,137321845,1814124,98087,1419,System,Routine file-server traffic
+2024-11-10 23:38:14,2024-11-11 00:24:02,10.0.2.28,51882,10.0.6.15,3389,TCP,3242640,25831200,5221,19785,svchost.exe (TermService),persistence session
+2024-11-11 01:12:00,2024-11-11 02:00:00,10.0.6.15,50914,10.0.6.41,10002,TCP,214748364800,4118204,153391689,88412,veeamagent.exe,"Nightly backup job — legitimate, and far larger than the exfiltration. Volume alone is not the signal; destination is"
+2024-11-11 09:12:11,2024-11-11 09:13:05,10.0.6.15,49369,10.0.4.77,445,TCP,117292831,361288,83780,2119,System,Routine file-server traffic
+2024-11-11 09:31:41,2024-11-11 09:46:38,10.0.6.15,56346,10.0.6.90,5985,TCP,136105502,3738402,97218,2013,System,Routine file-server traffic
+2024-11-11 11:09:46,2024-11-11 11:19:53,10.0.6.15,57454,10.0.4.102,445,TCP,118499008,1165499,84642,685,System,Routine file-server traffic
+2024-11-11 12:18:12,2024-11-11 12:32:51,10.0.6.15,56558,10.0.0.10,445,TCP,59364040,1284508,42402,891,System,Routine file-server traffic
+2024-11-11 14:50:57,2024-11-11 15:02:13,10.0.6.15,51308,10.0.0.10,53,TCP,53920222,176997,38514,1652,System,Routine file-server traffic
+2024-11-11 16:42:12,2024-11-11 16:52:49,10.0.6.15,56517,10.0.4.77,5985,TCP,33618994,190604,24013,2588,System,Routine file-server traffic
+2024-11-11 20:52:08,2024-11-12 01:04:51,10.0.2.28,51882,10.0.6.15,3389,TCP,17892340,142532200,28809,109173,svchost.exe (TermService),staging and exfiltration session
+2024-11-11 20:57:22,2024-11-11 21:10:04,10.0.2.28,50221,10.0.6.15,445,TCP,66120448,411204,47802,6104,System,rclone.exe and 7z.exe delivered over SMB — the byte count matches the two binaries plus overhead
+2024-11-11 22:41:06,2024-11-11 22:49:56,10.0.6.15,49200,185.220.101.44,443,TCP,2692097841,2422888,1922927,1730,rclone.exe,Exfiltration session 1/14 — TLS to an address with no prior contact in the retained window
+2024-11-11 22:50:30,2024-11-11 22:59:20,10.0.6.15,49203,185.220.101.44,443,TCP,2883976255,2595578,2059983,1853,rclone.exe,Exfiltration session 2/14 — TLS to an address with no prior contact in the retained window
+2024-11-11 22:59:54,2024-11-11 23:08:44,10.0.6.15,49206,185.220.101.44,443,TCP,2423637801,2181274,1731169,1558,rclone.exe,Exfiltration session 3/14 — TLS to an address with no prior contact in the retained window
+2024-11-11 23:09:18,2024-11-11 23:18:08,10.0.6.15,49209,185.220.101.44,443,TCP,2704405224,2433964,1931718,1738,rclone.exe,Exfiltration session 4/14 — TLS to an address with no prior contact in the retained window
+2024-11-11 23:18:42,2024-11-11 23:27:32,10.0.6.15,49212,185.220.101.44,443,TCP,2770762306,2493686,1979115,1781,rclone.exe,Exfiltration session 5/14 — TLS to an address with no prior contact in the retained window
+2024-11-11 23:28:06,2024-11-11 23:36:57,10.0.6.15,49215,185.220.101.44,443,TCP,2662634338,2396370,1901881,1711,rclone.exe,Exfiltration session 6/14 — TLS to an address with no prior contact in the retained window
+2024-11-11 23:37:30,2024-11-11 23:46:21,10.0.6.15,49218,185.220.101.44,443,TCP,2416134568,2174521,1725810,1553,rclone.exe,Exfiltration session 7/14 — TLS to an address with no prior contact in the retained window
+2024-11-11 23:46:55,2024-11-11 23:55:45,10.0.6.15,49221,185.220.101.44,443,TCP,2685928932,2417336,1918520,1726,rclone.exe,Exfiltration session 8/14 — TLS to an address with no prior contact in the retained window
+2024-11-11 23:56:19,2024-11-12 00:05:09,10.0.6.15,49224,185.220.101.44,443,TCP,2499362632,2249426,1785259,1606,rclone.exe,Exfiltration session 9/14 — TLS to an address with no prior contact in the retained window
+2024-11-12 00:05:43,2024-11-12 00:14:33,10.0.6.15,49227,185.220.101.44,443,TCP,2580918180,2322826,1843512,1659,rclone.exe,Exfiltration session 10/14 — TLS to an address with no prior contact in the retained window
+2024-11-12 00:15:07,2024-11-12 00:23:57,10.0.6.15,49230,185.220.101.44,443,TCP,2498508848,2248657,1784649,1606,rclone.exe,Exfiltration session 11/14 — TLS to an address with no prior contact in the retained window
+2024-11-12 00:24:31,2024-11-12 00:33:21,10.0.6.15,49233,185.220.101.44,443,TCP,2480752661,2232677,1771966,1594,rclone.exe,Exfiltration session 12/14 — TLS to an address with no prior contact in the retained window
+2024-11-12 00:33:55,2024-11-12 00:42:46,10.0.6.15,49236,185.220.101.44,443,TCP,2868726210,2581853,2049090,1844,rclone.exe,Exfiltration session 13/14 — TLS to an address with no prior contact in the retained window
+2024-11-12 00:43:19,2024-11-12 00:52:10,10.0.6.15,49239,185.220.101.44,443,TCP,3144158300,2829742,2245827,2021,rclone.exe,Exfiltration session 14/14 — TLS to an address with no prior contact in the retained window
+2024-11-12 02:01:41,2024-11-12 04:12:44,10.0.2.28,51882,10.0.6.15,3389,TCP,9278340,73912200,14939,56613,svchost.exe (TermService),"evasion, log clear and encryption session"
+2024-11-12 02:25:25,2024-11-12 02:37:13,10.0.6.15,59850,10.0.6.90,53,TCP,108744277,650044,77674,300,System,Routine file-server traffic
+2024-11-12 03:48:18,2024-11-12 04:00:03,10.0.6.15,59638,10.0.4.102,5985,TCP,94698064,2925570,67641,1523,System,Routine file-server traffic
+2024-11-12 04:37:16,2024-11-12 04:45:07,10.0.6.15,56449,10.0.6.90,445,TCP,137784904,1240353,98417,1042,System,Routine file-server traffic
+2024-11-12 04:45:48,2024-11-12 04:59:39,10.0.6.15,56346,10.0.4.61,389,TCP,176452045,2559633,126037,2992,System,Routine file-server traffic
+2024-11-12 06:28:28,2024-11-12 06:35:19,10.0.6.15,53365,10.0.6.41,53,TCP,140791565,298527,100565,2869,System,Routine file-server traffic
+2024-11-12 06:30:32,2024-11-12 06:35:58,10.0.6.15,49817,10.0.4.102,445,TCP,99454163,2139747,71038,1893,System,Routine file-server traffic

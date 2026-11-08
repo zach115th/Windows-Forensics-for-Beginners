@@ -1,0 +1,62 @@
+=====================================================================
+                    VAULT — YOUR NETWORK HAS BEEN LOCKED
+=====================================================================
+
+WHAT HAPPENED
+-------------
+Every document, database and backup on this server has been encrypted
+with a unique key. Files now carry the extension .vaulted and cannot be
+opened by any application. Your shadow copies have been removed and your
+backup catalog has been deleted. Recovery software will not help you.
+
+Before encrypting, we copied 34 GB of
+your accounting, finance, HR and legal data to our storage. We hold
+payroll registers, bank reconciliations, vendor contracts and tax
+filings.
+
+YOUR IDENTIFIER
+---------------
+    VLT-8837-ACCT
+
+Quote this identifier in every message. Without it we cannot locate
+your key.
+
+WHAT YOU MUST DO
+----------------
+1. Do not rename, move or modify the encrypted files. Doing so will
+   destroy the data permanently.
+2. Do not attempt third-party decryption tools. They do not work on
+   this build and corrupted files cannot be restored afterwards.
+3. Do not involve recovery companies. They will simply contact us and
+   charge you a markup.
+4. Contact us within 72 hours through the portal below.
+
+CONTACT
+-------
+    hxxp://vault-recovery-portal[.]onion/VLT-8837-ACCT
+
+Use the Tor Browser. Enter your identifier on the landing page. A
+support operator will respond and provide payment instructions and a
+free test decryption of two files under 2 MB.
+
+TIMELINE
+--------
+    Hours 0-72     Current price.
+    Hours 72-168   Price doubles.
+    After 168 h    Your data is published on our leak site and your
+                   customers, partners and regulator are notified.
+
+We are not interested in your reputation. We are interested in payment.
+The faster you contact us, the cheaper and quieter this ends.
+
+=====================================================================
+This file is dropped in every directory we encrypted. Do not delete it.
+=====================================================================
+
+---------------------------------------------------------------------
+SIMULATED ARTIFACT. "Vault", the .vaulted extension, the identifier
+VLT-8837-ACCT and the contact URL above are fictional and exist only for
+the Windows Forensics for Beginners lab material. The URL is defanged
+and does not resolve. No real ransomware family, leak site, payment
+address or victim is referenced anywhere in this dataset.
+---------------------------------------------------------------------

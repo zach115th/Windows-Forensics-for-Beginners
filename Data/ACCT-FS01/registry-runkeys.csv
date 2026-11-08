@@ -1,0 +1,10 @@
+Hive,KeyPath,ValueName,ValueData,ValueType,LastWriteTime,Notes
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\Run,WindowsUpdateSvc,C:\Windows\Temp\wu\rclone.exe --config C:\Windows\Temp\wu\rclone.conf serve,RegSz,2024-11-10 23:39:52.0000000,"MALICIOUS — points into the actor's staging directory. The target was deleted at 03:41:22, so the value is now a dangling reference that would still be re-created on restore from a backup taken after 2024-11-10"
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\Run,SecurityHealth,%windir%\system32\SecurityHealthSystray.exe,RegExpandSz,2024-11-10 23:39:52.0000000,Benign — ships with Windows
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\Run,VMware User Process,"""C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"" -n vmusr",RegSz,2024-11-10 23:39:52.0000000,Benign — hypervisor guest tools
+HKLM,SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce,(default),,RegSz,2023-04-18 08:14:41.0000000,Empty — nothing pending
+HKLM,SYSTEM\CurrentControlSet\Control\Terminal Server,fDenyTSConnections,0,RegDword,2024-11-09 01:21:07.0000000,RDP is ENABLED. LastWrite is inside the dwell window — worth confirming against the change-management record
+HKLM,SOFTWARE\Policies\Microsoft\Windows Defender\Real-Time Protection,DisableRealtimeMonitoring,1,RegDword,2024-11-12 02:02:21.0000000,MALICIOUS — the registry side of Defender 5001/5007 at 02:02:18
+HKLM,SOFTWARE\Policies\Microsoft\Windows Defender,DisableAntiSpyware,1,RegDword,2024-11-12 02:02:24.0000000,MALICIOUS — paired with the value above
+HKLM,SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths,C:\Windows\Temp\wu,0,RegDword,2024-11-11 21:52:41.0000000,MALICIOUS — the exclusion that let rclone and 7z run unmolested
+HKU,S-1-5-21-2088741334-1290117761-3244201886-1607\Software\Microsoft\Windows\CurrentVersion\Run,OneDrive,,RegSz,2023-06-02 11:04:18.0000000,"Benign leftover — empty value, product removed"

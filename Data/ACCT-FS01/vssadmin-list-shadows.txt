@@ -1,0 +1,26 @@
+# Output of `vssadmin list shadows` run on ACCT-FS01 by the responding
+# analyst at 2024-11-12 08:14:02 UTC, during live triage and before the
+# host was imaged. Captured to file and hashed at collection.
+
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2013 Microsoft Corp.
+
+No items found that satisfy the query.
+
+# ---------------------------------------------------------------------
+# Interpretation
+#
+# There are no shadow copies on this volume. Corroborating evidence that
+# this is deletion rather than a host that never had them:
+#
+#   * system-evtx.csv     volsnap EID 25, four records, 02:06:34-02:06:41
+#   * prefetch.csv        VSSADMIN.EXE  RunCount=2  LastRun 02:06:33
+#   * powershell-evtx.csv 4104 at 02:06:29 carrying the exact command line
+#                         `cmd /c 'vssadmin delete shadows /all /quiet'`
+#   * amcache.csv         vssadmin.exe present with a SHA-1
+#
+# The Security 4688 for vssadmin.exe does NOT survive: the log was cleared
+# at 02:09:41, three minutes after the deletion. This is the worked
+# example of Chapter 12 section 12.4.5 — a cleared log relocates the
+# investigation, it does not end it.
+# ---------------------------------------------------------------------

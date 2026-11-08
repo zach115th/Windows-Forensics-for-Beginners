@@ -1,0 +1,23 @@
+ControlSet,CacheEntryPosition,Path,LastModifiedTimeUTC,Executed,Duplicate,SourceFile
+1,0,C:\Windows\Temp\vault.exe,2024-11-12 02:11:04.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,1,C:\Windows\Temp\wu\rclone.exe,2024-11-11 20:58:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,2,C:\Windows\Temp\wu\7z.exe,2024-11-11 21:09:44.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,3,C:\Windows\Temp\netscan.exe,2024-11-09 01:24:11.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,4,C:\Windows\PSEXESVC.exe,2024-11-09 01:19:44.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,5,C:\Windows\System32\wevtutil.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,6,C:\Windows\System32\vssadmin.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,7,C:\Windows\System32\wbadmin.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,8,C:\Windows\System32\bcdedit.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,9,C:\Windows\System32\net.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,10,C:\Windows\System32\net1.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,11,C:\Windows\System32\nltest.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,12,C:\Windows\System32\whoami.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,13,C:\Windows\System32\systeminfo.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,14,C:\Windows\System32\taskkill.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,15,C:\Windows\System32\rundll32.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,16,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,17,C:\Windows\System32\cmd.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,18,C:\Windows\System32\mmc.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,19,C:\Windows\explorer.exe,2023-04-18 08:14:41.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,20,C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Binn\sqlservr.exe,2024-06-11 02:41:00.0000000,NA,False,C:\Windows\System32\config\SYSTEM
+1,21,C:\Program Files\Windows Defender\MpCmdRun.exe,2024-10-09 04:11:22.0000000,NA,False,C:\Windows\System32\config\SYSTEM

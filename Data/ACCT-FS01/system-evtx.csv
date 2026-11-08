@@ -1,0 +1,42 @@
+RecordNumber,TimeCreated,EventID,Channel,Provider,Computer,Level,Description,Payload
+704118,2024-11-06 05:17:48.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Workstation State=Running
+704119,2024-11-06 14:52:10.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Workstation State=Stopped
+704120,2024-11-06 17:25:43.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Update State=Running
+704121,2024-11-06 18:44:58.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Distributed File System Replication State=Stopped
+704122,2024-11-07 04:54:24.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Workstation State=Running
+704123,2024-11-07 07:53:37.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Event Log State=Running
+704124,2024-11-07 18:15:15.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Defender Antivirus Service State=Stopped
+704125,2024-11-07 23:35:49.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Workstation State=Running
+704126,2024-11-08 04:29:40.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Defender Antivirus Service State=Stopped
+704127,2024-11-08 09:33:34.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Microsoft Software Shadow Copy Provider State=Running
+704128,2024-11-08 21:21:45.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Workstation State=Running
+704129,2024-11-08 23:02:16.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Event Log State=Stopped
+704130,2024-11-09 01:19:44.0000000,7045,System,Service Control Manager,acct-fs01.finance.local,Information,A service was installed in the system,ServiceName=PSEXESVC ImagePath=%SystemRoot%\PSEXESVC.exe ServiceType=user mode service StartType=demand start AccountName=LocalSystem Note=PsExec-style remote execution
+704131,2024-11-09 01:22:18.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=PSEXESVC State=Stopped
+704132,2024-11-09 13:56:20.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Workstation State=Running
+704133,2024-11-09 18:39:30.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Background Intelligent Transfer Service State=Running
+704134,2024-11-09 18:54:30.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Distributed File System Replication State=Running
+704135,2024-11-09 20:02:38.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Workstation State=Stopped
+704136,2024-11-10 00:47:22.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Background Intelligent Transfer Service State=Stopped
+704137,2024-11-10 03:58:21.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Update State=Running
+704138,2024-11-10 11:14:12.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Microsoft Software Shadow Copy Provider State=Stopped
+704139,2024-11-10 21:24:23.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Event Log State=Running
+704140,2024-11-10 23:41:08.0000000,7045,System,Service Control Manager,acct-fs01.finance.local,Information,A service was installed in the system,ServiceName=VaultUpd DisplayName=Windows Update Assistant ImagePath=C:\Windows\Temp\wu\rclone.exe --config C:\Windows\Temp\wu\rclone.conf serve ServiceType=user mode service StartType=auto start AccountName=LocalSystem Note=persistence — display name mimics a Windows component
+704141,2024-11-10 23:41:12.0000000,7040,System,Service Control Manager,acct-fs01.finance.local,Information,Service start type changed,ServiceName=VaultUpd OldStartType=demand start NewStartType=auto start
+704142,2024-11-11 00:17:04.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Microsoft Software Shadow Copy Provider State=Running
+704143,2024-11-11 08:03:11.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Defender Antivirus Service State=Stopped
+704144,2024-11-11 19:22:15.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Defender Antivirus Service State=Stopped
+704145,2024-11-11 21:03:02.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=VaultUpd State=Running
+704146,2024-11-11 22:11:27.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Update State=Running
+704147,2024-11-12 00:18:13.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Background Intelligent Transfer Service State=Stopped
+704148,2024-11-12 02:06:34.0000000,25,System,volsnap,acct-fs01.finance.local,Error,The shadow copies of volume C: were deleted because the shadow copy storage could not grow in time,Volume=C: ShadowCopyId={8a41c002-77e1-4b9c-9d2e-11f4a7c300b1} Note=one record per deleted snapshot; the 4688 for vssadmin.exe did not survive the 02:09:41 log clear
+704149,2024-11-12 02:06:36.0000000,25,System,volsnap,acct-fs01.finance.local,Error,The shadow copies of volume C: were deleted because the shadow copy storage could not grow in time,Volume=C: ShadowCopyId={8a41c012-77e1-4b9c-9d2e-11f4a7c301b1} Note=one record per deleted snapshot; the 4688 for vssadmin.exe did not survive the 02:09:41 log clear
+704150,2024-11-12 02:06:38.0000000,25,System,volsnap,acct-fs01.finance.local,Error,The shadow copies of volume C: were deleted because the shadow copy storage could not grow in time,Volume=C: ShadowCopyId={8a41c022-77e1-4b9c-9d2e-11f4a7c302b1} Note=one record per deleted snapshot; the 4688 for vssadmin.exe did not survive the 02:09:41 log clear
+704151,2024-11-12 02:06:41.0000000,25,System,volsnap,acct-fs01.finance.local,Error,The shadow copies of volume C: were deleted because the shadow copy storage could not grow in time,Volume=C: ShadowCopyId={8a41c032-77e1-4b9c-9d2e-11f4a7c303b1} Note=one record per deleted snapshot; the 4688 for vssadmin.exe did not survive the 02:09:41 log clear
+704152,2024-11-12 02:06:44.0000000,8224,System,VSS,acct-fs01.finance.local,Information,The VSS service is shutting down due to idle timeout,Operation=Shutdown
+704153,2024-11-12 02:12:41.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=SQL Server (MSSQLSERVER) State=Stopped
+704154,2024-11-12 02:12:44.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=SQL Server Agent (MSSQLSERVER) State=Stopped
+704155,2024-11-12 03:41:18.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=VaultUpd State=Stopped
+704156,2024-11-12 10:48:57.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Workstation State=Stopped
+704157,2024-11-12 16:37:14.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Defender Antivirus Service State=Running
+704158,2024-11-12 18:59:21.0000000,7036,System,Service Control Manager,acct-fs01.finance.local,Information,Service state changed,ServiceName=Windows Event Log State=Running
