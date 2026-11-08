@@ -1,1 +1,0 @@
-# Windows-Forensics-for-Beginners
