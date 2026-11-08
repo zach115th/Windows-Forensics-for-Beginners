@@ -1,0 +1,79 @@
+# License
+
+## Summary
+
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)**
+
+SPDX identifier: `CC-BY-NC-SA-4.0`
+Canonical legal text: <https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode>
+Human-readable summary: <https://creativecommons.org/licenses/by-nc-sa/4.0/>
+
+Copyright © 2026 the *Windows Forensics for Beginners* authors and contributors.
+
+---
+
+## What this means in practice
+
+**You are free to:**
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+**Under the following terms:**
+
+- **Attribution** — you must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** — you may not use the material for commercial purposes.
+- **ShareAlike** — if you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+- **No additional restrictions** — you may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+The canonical legal text at the link above governs. This summary is not a substitute for it.
+
+---
+
+## Scope: what is and is not covered
+
+This repository contains three kinds of material, and the license applies to all of it — but the practical effect differs.
+
+| Part | Contents | Notes |
+|---|---|---|
+| **The manuscript** | `Book/` — chapters, appendices, glossary, answer keys | The prose this license primarily exists to cover. |
+| **The labs** | `Labs/` — lab instructions, notes scaffolds, worksheets, answer keys | Reusable in teaching under the license terms. See below on internal training. |
+| **The simulated data and generators** | `Data/` — CSV and text datasets, and the `generate.py` scripts that produce them | Licensed the same way. If you need the generator scripts under permissive terms for a tool you are building, open an issue and ask — a dual-license for `Data/**/generate.py` is a reasonable request. |
+
+### The cover image
+
+`Book/figures/cover.png` is **not** covered by this license unless the copyright holder says otherwise. Cover art is frequently produced under separate terms — commissioned, stock-licensed, or generated under a service agreement with its own conditions. Confirm the terms attached to the cover before redistributing it, and do not assume the CC license extends to it.
+
+### Third-party material
+
+Tool names, trademarks, and logos referenced in the text belong to their respective owners. Links to external tools, datasets, and documentation carry whatever license those projects apply — notably [Hayabusa](https://github.com/Yamato-Security/hayabusa) (AGPL-3.0), [Volatility 3](https://www.volatilityfoundation.org/) (Volatility Software License), [MemProcFS](https://github.com/ufrisk/MemProcFS) (GPL-3.0), and the [EVTX-to-MITRE-Attack](https://github.com/mdecrevoisier/EVTX-to-MITRE-Attack) dataset (CC0). Nothing here relicenses any of them.
+
+---
+
+## Common questions
+
+**Can I use this to train my team internally?**
+Yes. Internal training at a company is not a commercial use of the *material* in the sense the license restricts — you are not selling or licensing the book. Running the labs as an internal exercise, printing the quick reference for your SOC, and adapting a lab into a tabletop scenario are all fine. Keep the attribution.
+
+**Can I teach a paid course from it?**
+Not without permission. Charging for instruction built on this material is a commercial use. Ask.
+
+**Can I sell it, or a derivative of it?**
+No, not under this license. Ask if you want different terms.
+
+**Can I quote it in a blog post, talk, or paper?**
+Yes, with attribution. Short quotations for commentary or criticism are likely fair use / fair dealing in most jurisdictions regardless, but attribution is expected either way.
+
+**Can I fix an error and publish the corrected version?**
+Yes — that is a derivative, so publish it under CC BY-NC-SA 4.0 with attribution and a note of what changed. Better still, send the fix back via a pull request; see [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+**I want to use it commercially.**
+Open an issue and ask. The NonCommercial term exists to prevent the book being resold out from under it, not to block every commercial context.
+
+---
+
+## A note on the simulated data
+
+Everything under `Data/` is **fabricated**. Hostnames, IP addresses, user accounts, file hashes, and timestamps are synthetic and were constructed to serve the lab scenarios. Nothing in this repository is derived from a real incident, a real organization, or any real person's data.
+
+Do not use these datasets to benchmark tools, validate detection logic, or train models — they mirror the *shape* of real parser output without its statistical properties, and conclusions drawn from them will not transfer.
