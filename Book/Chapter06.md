@@ -444,3 +444,9 @@ Removable device profiling synthesizes all of this. A clean profile names the de
 Shell items and device artifacts tell you what was done on the host. The next chapter covers what was running *in memory* — the volatile state of the system at the moment of acquisition. Memory forensics opens the door to fileless malware, in-memory credentials, and process state that no disk-resident artifact can recover.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
