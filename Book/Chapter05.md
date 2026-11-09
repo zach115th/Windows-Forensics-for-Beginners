@@ -435,3 +435,9 @@ Registry and cloud evidence reach their full strength when correlated with NTFS,
 The registry and cloud storage clients tell you about configuration and what was synchronized. The next chapter shifts to a different question: what did the user actually *do*? Shell items, execution artifacts, and removable device profiling answer that question by recording recent files, recent folders, application launches, and the precise identifiers of devices that were attached and detached.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
