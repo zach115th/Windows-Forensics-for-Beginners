@@ -492,3 +492,9 @@ The strongest NTFS-based findings are correlated findings. An MFT entry, a USN J
 NTFS gives you the file system. The next chapter moves up the stack to the registry, Windows's central configuration database. It also covers cloud storage clients, which increasingly carry data off the host even when no removable media is involved. Together, the registry and cloud storage artifacts answer questions about persistence, configuration, account use, and exfiltration that the file system alone cannot.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
