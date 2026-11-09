@@ -406,3 +406,9 @@ The recurring discipline across this chapter — and the entire book — is corr
 This chapter worked a data-theft case, where the damage is disclosure and legal and regulatory deadlines set the clock. Chapter 12 works the other engagement type most responders meet first: ransomware. There the damage is operational, the business sets the clock, and the encryption event you were called about is the *end* of an intrusion that started days or weeks earlier. The artifact skills transfer directly. The pressure, the scoping questions, and the decisions the investigation has to support are different.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
