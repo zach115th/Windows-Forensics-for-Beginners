@@ -665,3 +665,9 @@ This is the last working chapter. The book began with a lab VM and a chain-of-cu
 Chapter 14 wraps up: a self-assessment against everything the book has covered, a map of the territory deliberately left outside its scope, and a structured plan for keeping the skills sharp once the book is closed. The habits are what survive. The specific commands will not.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
