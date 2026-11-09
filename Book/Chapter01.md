@@ -469,3 +469,9 @@ A well-designed Windows IR lab turns these concepts into repeatable practice. By
 The next chapter moves from foundational concepts to investigative process. You will begin thinking more explicitly about triage, prioritization, collection strategy, and how to turn broad incident concerns into repeatable forensic workflows.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
