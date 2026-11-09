@@ -353,3 +353,9 @@ Memory analysis is rarely the whole investigation but often the decisive part of
 Memory captures the volatile state of the host. The next chapter looks outward to network forensics on Windows, where the question is what crossed the wire, when, and on behalf of which process. Network and memory evidence often combine into the strongest reconstructions of active attacker activity. Memory shows the process, and the network shows the conversation.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
