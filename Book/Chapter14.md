@@ -247,6 +247,12 @@ Good luck out there.
 
 ---
 
-*End of book. Thank you for reading.*
+*Thank you for reading.*
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
