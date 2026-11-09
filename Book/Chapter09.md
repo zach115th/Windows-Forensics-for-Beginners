@@ -359,3 +359,9 @@ The strongest log-based findings are not log-based alone. They combine event log
 Logs are dense, structured, time-stamped evidence that fits naturally into a chronological view, and the next chapter builds that view. Timeline analysis takes the artifact streams covered in Chapters 4 through 9 and merges them into a single defensible chronology that tells the incident's story. Those streams are NTFS, registry, shell items, memory, network, and logs.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
