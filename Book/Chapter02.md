@@ -528,3 +528,11 @@ The alert-to-plan transition matters because it shapes the first 20 minutes of a
 ## Looking Ahead
 
 The next chapter moves from process structure to deeper forensic handling and analysis of specific Windows evidence sources. With the investigation workflow in place, you can begin working directly with artifact-rich collections, deciding what to parse first, and turning raw Windows data into defensible incident findings.
+
+---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
