@@ -506,3 +506,9 @@ The recurring discipline is documentation. A network finding is defensible when 
 Network evidence shows what crossed the wire. The next chapter turns to one of the densest text-based evidence sources on Windows: event logs. Logs document authentication, service activity, scheduled task creation, PowerShell execution, and a great deal more, provided they are configured to record it and have not been cleared. Used well, they corroborate everything covered so far. Used poorly, they overwhelm the analyst with noise.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
