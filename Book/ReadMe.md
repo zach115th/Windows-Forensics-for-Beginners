@@ -41,7 +41,7 @@ The book is for incident responders, SOC analysts, and other blue-team practitio
 
 <div align="center">
 
-**[Start with the Preface →](ReadMe.md)**
+**[Start with the Preface →](Preface.md)**
 
 [Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
 
