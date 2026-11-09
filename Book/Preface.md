@@ -42,3 +42,9 @@ The book also includes seven appendices. Five cover material the main chapters r
 - **Appendix G — Anti-Forensics and Evidence Tampering.** Timestomping, log clearing, shadow-copy deletion, secure deletion, Prefetch and journal manipulation, and LOLBin abuse, with the detection signal for each.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
