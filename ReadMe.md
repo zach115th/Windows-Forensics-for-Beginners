@@ -97,13 +97,7 @@ See `Data/README.md` for the full file inventory and caveats on the simulated na
 
 **If you lead IR teams:** adapt the labs into internal training scenarios. The Lab 11 and `Lab03/Capstone/` exercises suit tabletop or live-fire training.
 
-## Conventions
-
-- File naming uses mixed-case `ReadMe.md` (capital M). Don't normalize to `README.md` — it's a project convention.
-- Tool names are linked on first use (Eric Zimmerman's tools, Autopsy, FTK Imager, Volatility, etc.).
-- All timestamps in the labs and datasets are UTC.
-- The book is beginner-friendly but written for IR practitioners. Reader notes at the top of Chapters 1–3 tell experienced readers what to skim, and the appendices add depth on lateral movement, cloud identity, EDR, and anti-forensics.
-- Prose follows [`STYLE.md`](STYLE.md).
+---
 
 ## Status
 
