@@ -710,3 +710,9 @@ The recurring discipline is curation. Every entry should earn its place. Bulk is
 This chapter's skills feed directly into the next chapter: multi-source correlation, normalization, curation, and annotation. Chapter 11 brings the entire book's content to bear on a single capstone case. Its scenario starts with a suspected data exfiltration and asks you to plan, collect, analyze, timeline, and report. It concludes with a written case summary suitable for internal or external review.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
