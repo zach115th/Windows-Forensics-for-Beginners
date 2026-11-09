@@ -794,3 +794,11 @@ In incident response, the question is rarely whether more data would be helpful.
 ## Looking Ahead
 
 The next chapter moves into Windows file system artifacts in depth, beginning with NTFS structures and the evidence they preserve. With this chapter's collection strategy decisions in place, you are ready to work directly with the artifacts that targeted triage and full imaging are designed to preserve.
+
+---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
