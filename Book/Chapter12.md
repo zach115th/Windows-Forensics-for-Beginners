@@ -615,3 +615,9 @@ Finally, forensics owes the recovery decision four assessments: scope confidence
 This chapter produced findings, and the next one turns them into decisions and documents. Chapter 13 covers reporting, containment, and recovery. It shows how to write the incident report that leadership, counsel, insurers, and regulators will each read differently. It also shows how to sequence containment so that remediation does not tip off an actor still resident in the environment, and how to structure a recovery that closes the access path rather than restoring alongside it. The ransomware case in this chapter is the running example. The scope numbers, the dwell window, the exfiltration confidence tier, and the four recovery assessments are exactly the inputs Chapter 13 shows you how to communicate.
 
 ---
+
+<div align="center">
+
+[Chapters](.) · [Labs](../Labs/ReadMe.md) · [Simulated Data](../Data/README.md) · [Quick Reference](AppendixE.md) · [Glossary](Glossary.md) · [About the Author](About.md)
+
+</div>
