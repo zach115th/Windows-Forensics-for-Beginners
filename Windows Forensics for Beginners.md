@@ -15,8 +15,8 @@
 
 | | |
 |---|---|
-| **[Cover page](Book/Cover.md)** | Title page, what the book covers, who it's for |
-| **[Preface](Book/ReadMe.md)** | Why the book exists and how to read it |
+| **[Cover page](Book/ReadMe.md)** | Title page, what the book covers, who it's for |
+| **[Preface](Book/Preface.md)** | Why the book exists and how to read it |
 | **[Labs](Labs/ReadMe.md)** | Thirteen hands-on labs, with a capstone map |
 | **[Quick Reference](Book/AppendixE.md)** | The cheatsheet to keep open on a second monitor |
 | **[Glossary](Book/Glossary.md)** | 170 terms, cross-referenced to the chapters |
@@ -51,6 +51,7 @@
 | **[E](Book/AppendixE.md)** | Windows Forensics Quick Reference |
 | **[F](Book/AppendixF.md)** | Industry and Certification Alignment |
 | **[G](Book/AppendixG.md)** | Anti-Forensics and Evidence Tampering |
+| **[H](Book/AppendixH.md)** | Adding the Evidence Disk to Your Lab VM |
 
 ## Simulated data
 
@@ -76,7 +77,7 @@ If you need one for offline reading or an ebook build, generate it rather than m
 
 ```bash
 # Plain concatenation, in reading order
-cat Book/Cover.md Book/ReadMe.md Book/Chapter*.md Book/Appendix*.md Book/Glossary.md > book-single.md
+cat Book/ReadMe.md Book/Preface.md Book/Chapter*.md Book/Appendix*.md Book/Glossary.md > book-single.md
 
 # Or build an EPUB with Pandoc, using the cover art directly
 pandoc Book/ReadMe.md Book/Chapter*.md Book/Appendix*.md Book/Glossary.md \
