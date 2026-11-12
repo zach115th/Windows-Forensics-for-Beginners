@@ -4,19 +4,19 @@ This folder holds the screenshot images referenced from the chapters in `Book/`.
 
 ## The cover image
 
-`Book/Cover.md` expects the cover at **`Book/figures/cover.png`**. Upload the file at exactly that path and the cover page renders with no further edits — nothing else needs changing.
+`Book/ReadMe.md` (the cover page) expects the cover at **`Book/figures/cover.png`**. Upload the file at exactly that path and the cover page renders with no further edits — nothing else needs changing.
 
 Specs, if the image is still being produced or resized:
 
 | Property | Target | Why |
 |---|---|---|
-| Filename | `cover.png` | Referenced literally by `Cover.md`; a different name means editing the page |
+| Filename | `cover.png` | Referenced literally by `Book/ReadMe.md`; a different name means editing the page |
 | Aspect ratio | 1.6 : 1 (portrait) | The EPUB/Kindle standard; 2 : 3 also renders acceptably |
 | Dimensions | 1600 × 2560 px | Kindle's recommended size; anything under 1400 px wide looks soft on retail pages |
 | Format | PNG (or JPEG) | PNG for text-heavy covers, JPEG if the file exceeds a few MB |
 | File size | under ~5 MB | Keeps the repo light; see `CONTRIBUTING.md` on binaries |
 
-The `Cover.md` page constrains the display width to 600 px, so a large source image is fine — it will be scaled down for GitHub rendering while staying full resolution for an ebook build.
+The cover page constrains the display width to 600 px, so a large source image is fine — it will be scaled down for GitHub rendering while staying full resolution for an ebook build.
 
 If you also want a low-resolution copy for fast README loading, name it `cover-small.png` and leave `cover.png` as the full-size original.
 
