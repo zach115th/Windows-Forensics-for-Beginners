@@ -78,12 +78,14 @@ Two concepts dominate KAPE usage:
 
 A common KAPE invocation for a fast triage:
 
-```
-kape.exe --tsource C: --target !SANS_Triage --tdest C:\Triage\WKSTN-221 \
-         --msource C:\Triage\WKSTN-221 --module !EZParser --mdest C:\Cases\WKSTN-221
+```powershell
+.\kape.exe --tsource C: --target !SANS_Triage --tdest C:\Triage\WKSTN-221 `
+           --msource C:\Triage\WKSTN-221 --module !EZParser --mdest C:\Cases\WKSTN-221
 ```
 
 That single command line runs the SANS Triage target against `C:\`, which collects the MFT, USN Journal, Prefetch, registry hives, event logs, and a few dozen other artifacts. It drops them under `C:\Triage\WKSTN-221\`. It then runs the Eric Zimmerman parser bundle against the collection and produces analysis-ready CSVs under `C:\Cases\WKSTN-221\`.
+
+Two details trip up most first runs. Modules call their parsers from KAPE's `Modules\bin` folder, so copy the Eric Zimmerman tools there before you run a module. RECmd and EvtxECmd go in subfolders named for the tool, with their batch files and maps beside them. In PowerShell, also quote any target or module name that contains `$`, such as `'$MFT'` or `'MFTECmd_$MFT'`. Unquoted, PowerShell replaces `$MFT` with an empty variable before KAPE sees it. Lab 1 Task 1.6 runs both steps against a known file.
 
 KAPE is free for internal and non-commercial use. Using it to deliver services to a client, which covers most consultancy work, requires a license from Kroll. The free tier covers self-study and internal training. Check the current license terms for your case.
 
