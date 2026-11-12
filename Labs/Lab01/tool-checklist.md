@@ -27,6 +27,7 @@ Forensic tool output can differ between versions. If you share findings with a c
 | **EvtxECmd** | Event log parser | Included in EZ Tools | | | |
 | **Timeline Explorer** | CSV timeline viewer | Included in EZ Tools | | | |
 | **FTK Imager** | Disk and memory acquisition | [exterro.com](https://www.exterro.com/ftk-imager) | | | |
+| **KAPE** | Triage collection and chained parsing | [kroll.com](https://www.kroll.com/en/services/cyber/incident-response/kroll-artifact-parser-extractor-kape) | | | Free registration to download |
 | **Autopsy** | General forensic analysis platform | [autopsy.com](https://www.autopsy.com) | | | |
 | **Volatility 3** | Memory forensics framework | [volatilityfoundation.org](https://www.volatilityfoundation.org) | | | |
 | **WinPmem** | Memory acquisition | [github.com/Velocidex/WinPmem](https://github.com/Velocidex/WinPmem) | | | |
