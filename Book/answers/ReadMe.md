@@ -50,4 +50,4 @@ Several of these keys exist because writing them exposed problems in the chapter
 
 ---
 
-*Part of [Windows Forensics for Beginners](../Cover.md).*
+*Part of [Windows Forensics for Beginners](../ReadMe.md).*
