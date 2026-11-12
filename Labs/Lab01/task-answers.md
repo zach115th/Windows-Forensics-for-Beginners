@@ -41,7 +41,7 @@ Also procedural: you produce a populated secondary disk, then shut down cleanly.
 
 - The renamed `notepad.exe` to `update.exe` in `\Temp\` is a deliberate echo of the WKSTN-221 scenario you'll meet in Lab 04. Start treating "trusted system binary in an unexpected path" as a flag now. The habit pays off.
 - "Safely eject" matters because an unclean detach can leave the virtual disk in a dirty state, which alters the file system journals you might later want to parse. The whole point of forensic preservation is that the disk you hash is the disk you analyze.
-- Note where the host puts the virtual disk file. `.vmdk` files for VMware live next to the `.vmx`; Hyper-V `.vhdx` files live under `\Users\Public\Documents\Hyper-V\Virtual Hard Disks\` by default. You need the host path for Task 1.3.
+- Note where the host puts the virtual disk file, because Task 1.3 needs the full path. VMware keeps `.vmdk` files next to the `.vmx` in the VM's folder. Hyper-V keeps `.vhdx` files in the folder `(Get-VMHost).VirtualHardDiskPath` returns. Appendix H §H.7 shows how to ask each hypervisor for the exact path.
 
 **Sample disk contents that produce interesting artifacts:**
 
