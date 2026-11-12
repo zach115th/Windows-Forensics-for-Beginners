@@ -142,14 +142,17 @@ Add a second virtual disk to your VM with these settings:
 
 | Setting | Value |
 |---|---|
-| Size | 20–40 GB |
-| Format | VMDK (VMware), VHD/VHDX (Hyper-V), VDI (VirtualBox) |
+| Size | 40 GB |
+| Format | VMDK (VMware), VDI (VirtualBox), VHDX (Hyper-V), QCOW2 (UTM), HDD (Parallels Desktop) |
 | Allocation | Dynamically allocated |
+| Storage | A single file, not split |
+
+[Appendix H](../../../Book/AppendixH.md) gives the steps for each hypervisor, from adding the disk to finding its file on the host.
 
 After adding the disk, boot the VM and complete setup:
 
 1. Open **Disk Management** (`diskmgmt.msc`)
-2. Initialize the new disk (MBR is fine for lab use)
+2. Initialize the new disk as GPT. MBR is also fine for lab use
 3. Create a simple volume and format as **NTFS**
 4. Assign drive letter **E:** (keeps it consistent across labs)
 5. Label the volume `EVIDENCE`
