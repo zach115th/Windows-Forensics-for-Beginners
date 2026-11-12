@@ -278,7 +278,7 @@ A beginner Windows IR lab should be:
 
 ### 1.4.2 Building the VM
 
-A practical lab starts with a Windows 10 or Windows 11 virtual machine in a hypervisor such as VirtualBox, VMware Workstation, or Hyper-V.
+A practical lab starts with a Windows 10 or Windows 11 virtual machine in a hypervisor such as VirtualBox, VMware Workstation, or Hyper-V. On an Apple silicon Mac, UTM and Parallels Desktop run Windows 11 on Arm.
 
 A reasonable baseline includes:
 
@@ -308,7 +308,7 @@ Whichever option you choose, make the choice deliberately and document it.
 
 ### 1.4.4 The Secondary Evidence Disk
 
-Add a separate virtual disk for evidence and artifact work. Format it as NTFS, assign it a consistent drive letter such as `E:`, and label it clearly.
+Add a separate virtual disk for evidence and artifact work. Format it as NTFS, assign it a consistent drive letter such as `E:`, and label it clearly. A 40 GB dynamically allocated disk is enough for every lab in this book. [Appendix H](AppendixH.md) gives the steps for VMware Workstation Pro, VirtualBox, Hyper-V, UTM and Parallels Desktop. It also shows how to find the disk file on your host.
 
 Using a separate disk provides several advantages:
 
