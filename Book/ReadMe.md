@@ -8,7 +8,7 @@
 
 ---
 
-*Fourteen chapters · Seven appendices · Thirteen hands-on labs · Seven simulated datasets*
+*Fourteen chapters · Eight appendices · Thirteen hands-on labs · Seven simulated datasets*
 
 </div>
 
