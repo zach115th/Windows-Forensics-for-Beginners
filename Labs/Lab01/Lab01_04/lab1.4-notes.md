@@ -81,6 +81,7 @@ Notes:
 | EZ Tools Suite | ericzimmerman.github.io | | | |
 | MFTECmd | Included in EZ Tools | | | |
 | Registry Explorer | Included in EZ Tools | | | |
+| RECmd | Included in EZ Tools | | | |
 | EvtxECmd | Included in EZ Tools | | | |
 | PECmd | Included in EZ Tools | | | |
 | LECmd | Included in EZ Tools | | | |
@@ -88,6 +89,7 @@ Notes:
 | SBECmd | Included in EZ Tools | | | |
 | Timeline Explorer | Included in EZ Tools | | | |
 | FTK Imager | exterro.com | | | |
+| KAPE | kroll.com | | | |
 | Autopsy | autopsy.com | | | |
 | 7-Zip | 7-zip.org | | | |
 | Sysinternals Suite | learn.microsoft.com/sysinternals | | | |
