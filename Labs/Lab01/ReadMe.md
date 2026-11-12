@@ -239,8 +239,8 @@ This is the full working set the book assumes you have. **[Lab 01.4](Lab01_04/Re
 
 **Objective:** Generate a controlled evidence item that you will hash and document.
 
-1. In your hypervisor, add a **second virtual disk** to your VM (10–20 GB is sufficient).
-2. Boot the VM and initialize the disk in Disk Management (`diskmgmt.msc`). Format it as NTFS, assign drive letter **`E:`**, and label the volume `EVIDENCE`.
+1. In your hypervisor, add a **second virtual disk** to your VM: 40 GB, dynamically allocated, stored as a single file. [Appendix H](../../Book/AppendixH.md) has the steps for VMware Workstation Pro, VirtualBox, Hyper-V, UTM and Parallels Desktop.
+2. Boot the VM and initialize the disk in Disk Management (`diskmgmt.msc`). Format it as NTFS, assign drive letter **`E:`**, and label the volume `EVIDENCE`. Appendix H §H.6 walks through each dialog and gives a PowerShell equivalent.
 3. Populate the disk with realistic-looking sample data:
    - A few `.docx` and `.xlsx` files
    - A folder of images
@@ -248,7 +248,7 @@ This is the full working set the book assumes you have. **[Lab 01.4](Lab01_04/Re
    - A subfolder named `Temp` containing a renamed executable, such as `notepad.exe` renamed to `update.exe`
 4. **Open several of the files** using different applications, and run a couple of PowerShell commands. This activity makes the disk interesting later. You are generating LNK files, jump lists, Prefetch records, UserAssist entries, and USN Journal activity that Labs 04 through 06 will teach you to read.
 5. Safely eject or unmount the disk, then shut down the VM cleanly.
-6. On your **host machine**, locate the virtual disk file (`.vmdk`, `.vhdx`, `.vdi`, or equivalent).
+6. On your **host machine**, locate the virtual disk file: `.vmdk`, `.vdi`, `.vhdx`, `.qcow2` or `.hds`. Appendix H §H.7 shows where each hypervisor keeps it.
 
 > **Why this matters:** the renamed executable in `E:\Temp` is not decoration. In Lab 04 you will find it in the MFT with a `.exe` header and an innocuous name. In Lab 06 you will find the LNK file that proves someone opened it. Planting it now, deliberately, means you know the ground truth when you later have to prove it from artifacts alone. That is how you learn to trust an artifact — by testing it against something you already know.
 
@@ -265,10 +265,17 @@ On your host machine, compute a SHA-256 hash of the virtual disk file.
 Get-FileHash -Algorithm SHA256 "C:\Path\To\Your\evidence-disk.vmdk"
 ```
 
-**Bash (Linux/macOS host):**
+**Linux host:**
 ```bash
 sha256sum /path/to/evidence-disk.vmdk
 ```
+
+**macOS host:**
+```bash
+shasum -a 256 /path/to/evidence-disk.qcow2
+```
+
+Shut the VM down before you hash. A running VM keeps writing to the file. On Parallels Desktop, hash the `.hds` file inside the disk's `.hdd` folder, as Appendix H §H.7 explains.
 
 Record the hash value. You will use it in Task 1.4.
 
@@ -359,32 +366,56 @@ Get-FileHash -Algorithm SHA256 E:\SmokeTest\known.txt
 
 You now have a file whose name, contents, and creation time you know exactly. Every check below either finds it or produces output you can sanity-check against something you already know.
 
-**Step 2 — Export the artifacts the parsers need.** Several artifacts are locked while Windows is running and cannot be read in place. Export copies first, from an administrator prompt:
+**Step 2 — Collect the locked artifacts with KAPE.** Windows keeps the registry hives and `$MFT` open while it runs, so neither `copy` nor Explorer can read them. KAPE reads them straight from the NTFS volume instead. Open an administrator PowerShell prompt and run two collections:
 
 ```powershell
-reg save HKLM\SOFTWARE E:\SmokeTest\SOFTWARE
-reg save HKLM\SYSTEM   E:\SmokeTest\SYSTEM
+cd C:\Tools\KAPE
+.\kape.exe --tsource C: --tdest E:\SmokeTest\kape\system --target RegistryHivesSystem
+.\kape.exe --tsource E: --tdest E:\SmokeTest\kape\evidence --target '$MFT'
 ```
 
-For `$MFT`, use FTK Imager: **File → Add Evidence Item → Logical Drive → `E:`**, then expand `[root]`, right-click `$MFT`, and **Export Files** to `E:\SmokeTest\`. Exporting a locked system file through a forensic tool is itself the lesson. You will use the same technique on a live host in Lab 03.
+The first run copies the `SYSTEM`, `SOFTWARE`, `SAM` and `SECURITY` hives along with their `.LOG1` and `.LOG2` transaction logs. The second copies the `$MFT` of `E:`, the volume that holds `known.txt`. Keep the single quotes around `'$MFT'`: without them PowerShell reads `$MFT` as an empty variable, and KAPE receives no target name.
 
-**Step 3 — Run each tool once and record the result.**
+KAPE rebuilds each file's source path under the destination, with the drive letter as the first folder. `SOFTWARE` therefore lands at `E:\SmokeTest\kape\system\C\Windows\System32\config\SOFTWARE`, and `$MFT` at `E:\SmokeTest\kape\evidence\E\$MFT`. Each run also writes a copy log, a CSV in the destination folder that records every file KAPE copied.
+
+> **Why not `reg save`?** `reg save` asks the registry to write a fresh copy of a hive. That copy omits the deleted keys and values still sitting in the original file's free space. It also leaves out the `.LOG1` and `.LOG2` transaction logs. Nor can it reach hives that Windows has not loaded under `HKLM` or `HKU`, such as `Amcache.hve` or a logged-off user's `NTUSER.DAT`. KAPE copies the original bytes, so the deleted records and the logs come with them. Registry Explorer and RECmd use those logs to replay changes Windows had not yet written into the hive.
+
+**Step 3 — Parse the collection with KAPE modules.** KAPE modules run the parsers for you against what the targets collected. A module expects its parser in KAPE's `Modules\bin` folder, so copy two tools there first:
+
+- `MFTECmd.exe` into `C:\Tools\KAPE\Modules\bin\`
+- the whole `RECmd` folder, which includes its `BatchExamples` subfolder, into `C:\Tools\KAPE\Modules\bin\RECmd\`
+
+Then run both modules in one pass:
+
+```powershell
+.\kape.exe --msource E:\SmokeTest\kape --mdest E:\SmokeTest\kape-out --module 'MFTECmd_$MFT,RECmd_SoftwareASEPs'
+```
+
+`MFTECmd_$MFT` parses the collected `$MFT`. `RECmd_SoftwareASEPs` runs RECmd's batch file of `SOFTWARE`-hive autostart keys, including the `Run` key, across the collected hives. KAPE writes each module's CSV output into a folder named for its category, `FileSystem` or `Registry`, under `E:\SmokeTest\kape-out\`.
+
+> **If you cannot use KAPE.** Downloading KAPE requires a free registration with Kroll. Using it to deliver services to a client requires a paid license, as Appendix D §D.3 explains. FTK Imager does the same collection by hand. For the hives, choose **File → Obtain Protected Files**, select **Password recovery and all registry files**, and save to `E:\SmokeTest\ftk\`. For `$MFT`, choose **File → Add Evidence Item → Logical Drive → `E:`**, expand `[root]`, right-click `$MFT` and select **Export Files** to the same folder. If Registry Explorer later reports that a hive is dirty, export that hive's `.LOG1` and `.LOG2` files from `C:\Windows\System32\config\` the same way. Then point the commands in Step 4 at `E:\SmokeTest\ftk\` instead of the KAPE paths, and skip the two KAPE rows.
+
+**Step 4 — Run each tool once and record the result.** Run the commands from the same administrator PowerShell prompt. The single quotes again keep `$MFT` in the paths literal.
 
 | # | Tool | Invocation | Passes if |
 |---|---|---|---|
-| 1 | FTK Imager | Export `$MFT` from `E:` as above | A non-zero-byte `$MFT` file appears in `E:\SmokeTest\` |
-| 2 | MFTECmd | `MFTECmd.exe -f "E:\SmokeTest\$MFT" --csv E:\SmokeTest\out` | CSV written, and it contains a row for `known.txt` |
-| 3 | EvtxECmd | `EvtxECmd.exe -f C:\Windows\System32\winevt\Logs\System.evtx --csv E:\SmokeTest\out` | CSV written with more than zero event rows |
-| 4 | PECmd | `PECmd.exe -d C:\Windows\Prefetch --csv E:\SmokeTest\out` | CSV includes an entry for a tool you ran in the last hour |
-| 5 | RECmd | `RECmd.exe -f E:\SmokeTest\SOFTWARE --kn "Microsoft\Windows\CurrentVersion\Run"` | Run-key values printed |
-| 6 | Timeline Explorer | Open the MFTECmd CSV from step 2 | Grid loads; you can filter to `known.txt` |
-| 7 | Registry Explorer | Open `E:\SmokeTest\SYSTEM` | Hive loads without a dirty-hive error you cannot resolve |
-| 8 | Volatility 3 | `vol -h` (or `python vol.py -h`) | Plugin list prints without a traceback |
-| 9 | Hayabusa | `hayabusa.exe update-rules` then `hayabusa.exe csv-timeline -d C:\Windows\System32\winevt\Logs -o E:\SmokeTest\hayabusa.csv` | Rules update (needs NAT briefly) and a CSV is produced |
-| 10 | 7-Zip / Notepad++ / DB Browser | Open any file of the right type | Application launches and displays content |
-| 11 | Autopsy | Create a case, add `E:` as a logical drive | Ingest completes and the file tree shows `SmokeTest\known.txt` |
+| 1 | KAPE targets | The two collections in Step 2 | Both destinations hold a copy log, and `E:\SmokeTest\kape\evidence\E\$MFT` is larger than zero bytes |
+| 2 | KAPE modules | The module run in Step 3 | `E:\SmokeTest\kape-out\FileSystem\` holds an MFTECmd CSV with a row for `known.txt`, and `Registry\` holds a RECmd CSV |
+| 3 | MFTECmd | `MFTECmd.exe -f 'E:\SmokeTest\kape\evidence\E\$MFT' --csv E:\SmokeTest\out` | CSV written, and it contains a row for `known.txt` |
+| 4 | EvtxECmd | `EvtxECmd.exe -f C:\Windows\System32\winevt\Logs\System.evtx --csv E:\SmokeTest\out` | CSV written with more than zero event rows |
+| 5 | PECmd | `PECmd.exe -d C:\Windows\Prefetch --csv E:\SmokeTest\out` | CSV includes an entry for a tool you ran in the last hour |
+| 6 | RECmd | `RECmd.exe -f E:\SmokeTest\kape\system\C\Windows\System32\config\SOFTWARE --kn "Microsoft\Windows\CurrentVersion\Run"` | Run-key values printed |
+| 7 | Timeline Explorer | Open the MFTECmd CSV from row 3 | Grid loads, and you can filter to `known.txt` |
+| 8 | Registry Explorer | Open `E:\SmokeTest\kape\system\C\Windows\System32\config\SYSTEM` | Hive loads. If it reports a dirty hive, let it replay the `.LOG1` and `.LOG2` files KAPE collected beside it |
+| 9 | FTK Imager | **File → Add Evidence Item → Logical Drive → `E:`** | `[root]\SmokeTest\known.txt` appears in the evidence tree |
+| 10 | Volatility 3 | `vol -h` (or `python vol.py -h`) | Plugin list prints without a traceback |
+| 11 | Hayabusa | `hayabusa.exe update-rules` then `hayabusa.exe csv-timeline -d C:\Windows\System32\winevt\Logs -o E:\SmokeTest\hayabusa.csv` | Rules update (needs NAT briefly) and a CSV is produced |
+| 12 | 7-Zip / Notepad++ / DB Browser | Open any file of the right type | Application launches and displays content |
+| 13 | Autopsy | Create a case, add `E:` as a logical drive | Ingest completes and the file tree shows `SmokeTest\known.txt` |
 
-**Step 4 — Record it.** For every tool, fill in the version column in [`tool-checklist.md`](tool-checklist.md), and note anything that needed a workaround in that file's Update Log. If a tool failed, work the [Troubleshooting](#troubleshooting-your-lab-build) table before moving on.
+Collecting locked files with a triage tool is itself the lesson. Lab 03 applies the same KAPE approach to a live host, and Lab 02's collection plan names KAPE targets for the same reason.
+
+**Step 5 — Record it.** For every tool, fill in the version column in [`tool-checklist.md`](tool-checklist.md), and note anything that needed a workaround in that file's Update Log. If a tool failed, work the [Troubleshooting](#troubleshooting-your-lab-build) table before moving on.
 
 ```
 Smoke Test Date (UTC):     
