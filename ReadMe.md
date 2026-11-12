@@ -14,7 +14,7 @@ You need basic Windows administration skills and some security experience. You d
 
 ```
 .
-├── Book/               The 14-chapter manuscript, 7 appendices, preface, glossary,
+├── Book/               The 14-chapter manuscript, 8 appendices, preface, glossary,
 │                       per-chapter answer keys, and the cover page
 ├── Labs/               13 hands-on labs (Lab01–Lab13) with sub-exercises, notes
 │                       templates, and answer keys
@@ -26,13 +26,14 @@ You need basic Windows administration skills and some security experience. You d
 └── Windows Forensics for Beginners.md  Lower-fidelity single-file copy of the book
 ```
 
-**Cover page:** [`Book/Cover.md`](Book/Cover.md)
+**Cover page:** [`Book/ReadMe.md`](Book/ReadMe.md)
 
 ### `Book/`
 
 | File | Topic |
 |---|---|
-| `ReadMe.md` | Preface |
+| `ReadMe.md` | Cover page |
+| `Preface.md` | Preface |
 | `Chapter01.md` | Windows Forensics in Incident Response |
 | `Chapter02.md` | The Forensic Investigation Process for IR |
 | `Chapter03.md` | Digital Forensics and Advanced Data Triage |
@@ -54,6 +55,7 @@ You need basic Windows administration skills and some security experience. You d
 | `AppendixE.md` | Windows Forensics Quick Reference |
 | `AppendixF.md` | Industry and Certification Alignment |
 | `AppendixG.md` | Anti-Forensics and Evidence Tampering |
+| `AppendixH.md` | Adding the Evidence Disk to Your Lab VM |
 | `Glossary.md` | Consolidated key terms, with chapter cross-references |
 | `answers/` | Review-question and practical-exercise answer keys, one file per chapter |
 
