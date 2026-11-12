@@ -154,11 +154,11 @@ Notes:          Record start and end time; capture from elevated PowerShell; do 
 | Security.evtx | `wevtutil` | `wevtutil epl Security 01_Collection\artifacts\security.evtx` | `01_Collection\artifacts\security.evtx` |
 | PowerShell logs | `wevtutil` | `wevtutil epl "Microsoft-Windows-PowerShell/Operational" 01_Collection\artifacts\powershell.evtx` | same |
 | Prefetch | xcopy / robocopy | `robocopy C:\Windows\Prefetch 01_Collection\artifacts\prefetch *.pf /S` | `01_Collection\artifacts\prefetch\` |
-| MFT | KAPE / FTK Imager, then MFTECmd | Raw-copy `C:\$MFT` to `01_Collection\artifacts\filesystem\$MFT`, then `MFTECmd.exe -f 01_Collection\artifacts\filesystem\$MFT --csv 01_Collection\artifacts\filesystem --csvf mft.csv` | `01_Collection\artifacts\filesystem\mft.csv` |
-| Registry hives | `reg save` | `reg save HKLM\SYSTEM 01_Collection\artifacts\registry\SYSTEM` (repeat for SOFTWARE, NTUSER.DAT, USRCLASS) | `01_Collection\artifacts\registry\` |
-| SRUM database | KAPE / FTK Imager | Raw-copy `C:\Windows\System32\sru\SRUDB.dat`, which is locked on a live host. Parse it with the `SOFTWARE` hive saved in the row above | `01_Collection\artifacts\srum\` |
+| MFT | KAPE `$MFT` target, then MFTECmd | Raw-copy `C:\$MFT` to `01_Collection\artifacts\filesystem\$MFT`, then `MFTECmd.exe -f 01_Collection\artifacts\filesystem\$MFT --csv 01_Collection\artifacts\filesystem --csvf mft.csv` | `01_Collection\artifacts\filesystem\mft.csv` |
+| Registry hives | KAPE `RegistryHives` target | `kape.exe --tsource C: --tdest 01_Collection\artifacts\registry --target RegistryHives` copies `SYSTEM`, `SOFTWARE`, `SAM`, `SECURITY`, each user's `NTUSER.DAT` and `UsrClass.dat`, and their `.LOG1`/`.LOG2` files. `reg save` would rebuild each hive without its deleted records or logs, and it cannot reach a logged-off user's hives | `01_Collection\artifacts\registry\` |
+| SRUM database | KAPE `SRUM` target | Raw-copy `C:\Windows\System32\sru\SRUDB.dat`, which is locked on a live host. Parse it with the `SOFTWARE` hive collected in the row above | `01_Collection\artifacts\srum\` |
 | LNK files | xcopy | Copy `C:\Users\<user>\AppData\Roaming\Microsoft\Windows\Recent\*` | `01_Collection\artifacts\lnk\` |
-| Amcache | KAPE / FTK Imager | Raw-copy `C:\Windows\AppCompat\Programs\Amcache.hve` and its `.LOG1`/`.LOG2` files. It is a standalone hive file, not a loaded HKLM key, so `reg save` cannot reach it | same |
+| Amcache | KAPE `Amcache` target | Raw-copy `C:\Windows\AppCompat\Programs\Amcache.hve` and its `.LOG1`/`.LOG2` files. It is a standalone hive file, not a loaded HKLM key, so `reg save` cannot reach it | same |
 
 **Stage 5 — Packaging and Hashing**
 
