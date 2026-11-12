@@ -31,7 +31,7 @@ The goal is a clear, repeatable approach to acquiring, analyzing, and explaining
 
 If you don't have a Windows VM handy, the `Data/` folder at the root of this repository ships pre-parsed CSV and text outputs for each lab's scenario. You can work the analysis tasks against that data instead of generating your own, or alongside it.
 
-The book also includes seven appendices. Five cover material the main chapters reference but do not develop. Appendix E is a quick-reference cheatsheet, and Appendix F maps the content to industry certifications:
+The book also includes eight appendices. Five cover material the main chapters reference but do not develop. Appendix E is a quick-reference cheatsheet, Appendix F maps the content to industry certifications, and Appendix H walks through the lab VM's evidence disk:
 
 - **Appendix A — Lateral Movement, Credential Abuse, and Active Directory.** Pass-the-Hash, Kerberoasting, DCSync, Golden/Silver Tickets, and the source/destination/domain-side artifacts that document them.
 - **Appendix B — Cloud Identity and Microsoft 365 Forensics.** Entra ID sign-in and audit logs, the Unified Audit Log, OAuth consent abuse, and `MailItemsAccessed` — with concrete KQL examples.
@@ -40,6 +40,7 @@ The book also includes seven appendices. Five cover material the main chapters r
 - **Appendix E — Windows Forensics Quick Reference.** A condensed one-page-density cheatsheet of artifact paths, event IDs, tool commands, and investigative questions — the case-open reference for when you don't have time to leaf through 14 chapters.
 - **Appendix F — Industry and Certification Alignment.** Maps the book's content to GIAC and CompTIA certifications, MITRE ATT&CK tactics, and NIST SP 800-61 / 800-86 process phases, with suggested reading orders by goal.
 - **Appendix G — Anti-Forensics and Evidence Tampering.** Timestomping, log clearing, shadow-copy deletion, secure deletion, Prefetch and journal manipulation, and LOLBin abuse, with the detection signal for each.
+- **Appendix H — Adding the Evidence Disk to Your Lab VM.** Step-by-step instructions for adding the `E:` evidence disk in VMware Workstation Pro, VirtualBox, Hyper-V, UTM and Parallels Desktop, preparing it in Windows, and finding its file on the host to hash it.
 
 ---
 
