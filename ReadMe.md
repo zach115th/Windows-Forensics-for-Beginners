@@ -20,9 +20,6 @@ You need basic Windows administration skills and some security experience. You d
 │                       templates, and answer keys
 ├── Data/               Simulated parser output for each lab's scenario (CSV / text),
 │                       each host with a deterministic generator script
-├── CONTRIBUTING.md     How to contribute, and the conventions to preserve
-├── STYLE.md            House writing style (Lenny Zeltser's guidance, applied)
-├── CLAUDE.md           Agent / contributor guidance for working in this repo
 └── Windows Forensics for Beginners.md  Lower-fidelity single-file copy of the book
 ```
 
