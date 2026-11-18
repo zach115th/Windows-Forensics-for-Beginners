@@ -100,7 +100,7 @@ See `Data/README.md` for the full file inventory and caveats on the simulated na
 
 ## Status
 
-The book is complete in draft. The labs support self-study and internal training. Labs 01–03 and 13 are workbook-style, and Labs 04–12 add walkthroughs against the `Data/` datasets. See `CONTRIBUTING.md` and `CLAUDE.md` for contributor guidance.
+The book is complete in draft. The labs support self-study and internal training. Labs 01–03 and 13 are workbook-style, and Labs 04–12 add walkthroughs against the `Data/` datasets.
 
 ---
 
